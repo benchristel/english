@@ -113,7 +113,7 @@ nav.sidebar li.mdsite-current-file a {
 article {
   flex-grow: 1;
   border: 2px outset gray;
-  padding: 140px 40px 200px 40px;
+  padding: 140px 60px 200px 60px;
   background: #000;
   color: #111;
   border-image: url(parchment.png);
