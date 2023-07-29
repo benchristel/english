@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# -o: open the index page in a browser once the server is running
+# -c-1: disable caching
+bunx http-server -o -c-1 -p 3000 docs

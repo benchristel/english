@@ -1,0 +1,3 @@
+#!/bin/sh
+
+(cd src && rm -rf *.md && au -s) && mdsite

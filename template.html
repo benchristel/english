@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{title}} - Limgar Grammar</title>
+    <link rel="stylesheet" href="/assets/style.css">
+  </head>
+  <body>
+    <div class="page">
+      <header>
+        <nav>
+          <div class="left"></div>
+          <div class="center">
+            <a class="site-title" href="/">
+              Change this title! (in template.html)
+            </a>
+          </div>
+          <div class="right"></div>
+        </nav>
+      </header>
+      <div class="page-body">
+        <nav class="sidebar">
+          {{toc}}
+        </nav>
+        <article>
+          <div class="prev-and-next-links">
+            <div class="left">{{prev}}</div><div class="middle"><h1>{{title}}</h1></div><div class="right">{{next}}</div>
+          </div>
+          <hr/>
+          {{content}}
+          <hr/>
+          <div class="prev-and-next-links">
+            <div class="left">{{prev}}</div><div class="right">{{next}}</div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </body>
+</html>

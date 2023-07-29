@@ -1,0 +1,4 @@
+phonology.html
+inflections.html
+syntax.html
+culture.html

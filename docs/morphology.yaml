@@ -1,0 +1,14 @@
+---
+inflections:
+  1SG:
+    - ["er$", "go"]
+  2SG:
+    - ["e([^aeiou])er$", "ie$1es"]
+  3SG:
+    - ["e([^aeiou])er$", "ie$1e"]
+  1PL:
+    - ["er$", "emos"]
+  2PL:
+    - ["e([^aeiou])er$", "ie$1en"]
+  3PL:
+    - ["e([^aeiou])er$", "ie$1en"]
