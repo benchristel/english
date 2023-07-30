@@ -1,0 +1,37 @@
+# Adjectives
+
+Adjectives can be _determining_ or _descriptive_. A determining adjective is one that narrows down which thing you're talking about. A descriptive adjective just adds additional detail.
+
+## Determining Adjectives
+
+Determining adjectives require the noun they modify to have the definite article __BLANK#DEF__ before it. Determining adjectives come between the definite article and the noun. The definite article causes [mutation](mutation.html) on the adjective immediately after it.
+
+- __evil_0#DEF ghost__ "The evil ghost (as opposed to the good ghost)"
+- __final_0#DEF wish__ "The last wish"
+
+If a noun has multiple determining adjectives, only the first one is mutated.
+
+- __final_0#DEF evil_0 ghost__ "The last evil ghost"
+
+Some determining adjectives join to their nouns with a hyphen to create a new lexeme; these do not require the definite article. The noun following the adjective is mutated.
+
+- __central_0-school#LEN__ "middle school"
+
+## Descriptive Adjectives
+
+Descriptive adjectives follow the noun they modify.
+
+- __ghost evil_0#LEN__ "An evil ghost"
+- __tree#DEF central_0#LEN__ "The middle tree"
+
+## Predicative Adjectives
+
+So far, we've seen adjectives attach to noun phrases as modifiers. Adjectives may also be used as the main _predicate_ of a sentence. This is the difference between the phrase _the tall man_ (modifier) and the sentence _the man is tall_ (predicate).
+
+- __PRES#CAP evil_0 tree#DEF__ "The tree is evil"
+- __PRES#CAP curse_1#PASS school#DEF__ "The school is cursed"
+
+The word order here is _tense-marker, adjective, subject_. __PRES#CAP__ marks the present tense.
+Then comes the adjective, then the noun. There is no word in these sentences meaning "to be". In effect, the adjective can double as a verb.
+
+When spoken aloud, __PRES__ is often shortened to __'^s__. And, for that matter, __BLANK#DEF__ is shortened to __'^n__ after a vowel. So __PRES#CAP curse_1#PASS school#DEF__ might be pronounced something like __'^S curse_1#PASS'^n school__ "The school's cursed".

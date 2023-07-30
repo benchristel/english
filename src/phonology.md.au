@@ -1,11 +1,46 @@
 # Pronunciation
 
+## Consonants
+
 The consonant phonemes of English are as follows. Paired sounds are unvoiced/voiced pairs.
 
-|         | Labial | Dental | Alveolar | Post-Alv.     | Velar | Glottal |
-| ------- | ------ | ------ | -------- | ------------- | ------- | ----- |
-| Plosive | p b    |        | t d      |               | c g   |
-| Nasal   | m      |        | n        |               | ng    |
-| Affric. |        |        |          | ch            |       |
-| Spirant | f v    | þ ð    | s        | sh            | gh    | h
-| Approx. | w      | l      | r        | i             | (w)   |
+|         | Labial | Dental | Alveolar | Post-Alv.     | Gutteral |
+| ------- | ------ | ------ | -------- | ------------- | ----- |
+| Nasal   | m      |        | n        |               |       |
+| Pre-Occ. | <sup>b</sup>m |  | <sup>d</sup>n
+| Plosive | p b    |        | t d      |               | k g   |
+| Spirant | f v    | θ ð    | s        | ʃ             | h     |
+| Approx. | w      | l      | r        | j             | (w)   |
+
+These are written with their IPA characters, except for the following:
+
+- /θ/ is spelled __^th__.
+- /ð/ is spelled __^dh__.
+- /ʃ/ is spelled __^sh__.
+- /j/ is spelled __^y__.
+
+When not between two vowels, __^nn__ and __^mm__ represent pre-occluded _n_ and _m_. Between two vowels, the same spellings are usually pronounced /n/ and /m/ (some speakers may lengthen them to /n:/ and /m:/).
+
+## Vowels
+
+|      | Front | Central | Back |
+| ---- | ----- | ------- | ---- |
+| High | i     | ɪ       | u    |
+| Mid  | e     | ɵ       | o    |   
+| Low  |       | a       |      |
+
+/ɪ/ is spelled __^y__, and /ɵ/ is spelled __^eu__. The other vowels are spelled with their IPA characters.
+
+## Diphthongs
+
+Allowed diphthongs are __^ai__ /aɪ/, __^au__ /aʊ/, and __^ae__ /eɪ/. The combination __^ow__ could also be viewed as a diphthong /oʊ/.
+
+## Allophony
+
+Word-final __^s__ becomes voiced [z] after a voiced plosive or fricative.
+
+__^n__ becomes [ŋ] before /k/  or /g/.
+
+## Stress
+
+Stress is on the second-to-last syllable.

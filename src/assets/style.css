@@ -77,13 +77,26 @@ nav.sidebar {
   flex-basis: 10em;
   flex-grow: 0;
   flex-shrink: 0;
-  padding: 140px 0.5em 0 0;
+  padding: 12px 0.5em 0 0;
 }
 
 @media (max-width: 600px) {
   nav.sidebar {
     display: none;
   }
+}
+
+nav.sidebar img {
+  width: 100%;
+  opacity: 0.8;
+}
+
+nav.sidebar a.home-link:hover {
+  background: transparent;
+}
+
+nav.sidebar a.home-link:hover img {
+  opacity: 1;
 }
 
 nav.sidebar ul {

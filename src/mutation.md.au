@@ -1,0 +1,28 @@
+# Mutation
+
+_Mutation_ refers to the way that the initial consonant sound of a word in __LANGNAME__ changes in certain situations.
+
+| Original sound | Mutated sound |
+| -------------- | ------------- |
+| p              | b
+| t              | d
+| k              | g
+| b              | v
+| d              | dh
+| g              | ' (silent)
+| m              | v
+
+## Examples
+
+- __tree__ "tree" &rarr; __tree#LEN__
+- __curse__ "curse" &rarr; __curse#LEN__
+- __evil_0__ "evil" &rarr; __evil_0#LEN__
+- __month__ "month" &rarr; __month#LEN__
+- __god__ "god" &rarr; __god#LEN__
+- __ghost__ "ghost" &rarr; __ghost#LEN__
+- __final_0__ "last, final" &rarr; __final_0#LEN__
+- __head__ "head" &rarr; __head#LEN__
+
+Mutation applies to sounds, not letters. __^th__ and __^dh__ don't mutate.
+
+- __pebble__ "pebble" &rarr; __pebble#LEN__.

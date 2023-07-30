@@ -1,14 +1,37 @@
 ---
 inflections:
-  1SG:
-    - ["er$", "go"]
-  2SG:
-    - ["e([^aeiou])er$", "ie$1es"]
-  3SG:
-    - ["e([^aeiou])er$", "ie$1e"]
-  1PL:
-    - ["er$", "emos"]
-  2PL:
-    - ["e([^aeiou])er$", "ie$1en"]
-  3PL:
-    - ["e([^aeiou])er$", "ie$1en"]
+  # Noun inflections
+  SING:
+    - ["([ei][^aeiouy]+)$", "$1iad"]
+    - ["$", "ad"]
+  
+  DEF:
+    - ["^BLANK$", "yn"]
+    - ["^([td]h)", "yn $1"]
+    - ["^p", "ym b"]
+    - ["^t", "yn d"]
+    - ["^k", "yn g"]
+    - ["^d", "yn dh"]
+    - ["^[mb]", "ym m"]
+    - ["^g", "yn '"]
+    - ["^", "yn "]
+
+  # Verb inflections
+  CAUS:
+    - ["^", "ri"]
+  PASS:
+    - ["$", "u"]
+  MID:
+    - ["$", "s"]
+  RESULT:
+    - ["$", "geth"]
+  
+  # Phonological processes
+  LEN:
+    - ["^([td]h)", "$1"]
+    - ["^p", "b"]
+    - ["^t", "d"]
+    - ["^k", "g"]
+    - ["^d", "dh"]
+    - ["^[mb]", "v"]
+    - ["^g", "'"]

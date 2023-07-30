@@ -1,0 +1,18 @@
+# Articles
+
+The definite article (word for _the_) is __BLANK#DEF__. It comes before the noun, and causes the noun to mutate.
+
+- __tree#DEF__ "the tree" &larr; __tree__ "tree"
+- __boat#DEF__ "the boat"
+- __people#DEF__ "the people" &larr; __people__ "people"
+- __star#DEF__ "the star"
+- __ghost#DEF__ "the ghost" &larr; __ghost__ "ghost"
+
+When the first letter of the noun is __^m__ or __^b__, the definite article becomes __^ym__. The initial __^m__ of the noun does _not_ mutate in this case—this is an exception to the mutation rule described earlier.
+
+- __curse#DEF__ "the curse"
+
+There is no indefinite article corresponding to _a/an_ in __LANGNAME__.
+
+- __tree__ "tree" or "a tree"
+- __boat__ "boat" or "a boat"
