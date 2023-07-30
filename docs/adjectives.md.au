@@ -35,3 +35,21 @@ The word order here is _tense-marker, adjective, subject_. __PRES#CAP__ marks th
 Then comes the adjective, then the noun. There is no word in these sentences meaning "to be". In effect, the adjective can double as a verb.
 
 When spoken aloud, __PRES__ is often shortened to __'^s__. And, for that matter, __BLANK#DEF__ is shortened to __'^n__ after a vowel. So __PRES#CAP curse_1#PASS school#DEF__ might be pronounced something like __'^S curse_1#PASS'^n school__ "The school's cursed".
+
+## Comparatives
+
+To express comparisons between things, __LANGNAME__ uses a periphrasic construction with __beyond_1__ "beyond":
+
+- __PRES#CAP evil_0 tree#DEF__ "The tree is evil."
+- __PRES#CAP evil_0 tree#DEF beyond_1 ghost#DEF.__ "The tree is more evil than the ghost." (lit. "The tree is evil beyond the ghost")
+
+## Superlatives
+
+Superlatives are formed similarly to comparatives, using __beyond_1#MID__:
+
+- __PRES#CAP evil_0 one#DEF there_0#LEN beyond_1#MID__ "That one is the most evil."
+
+When __beyond_1__ or __beyond_1#MID__ comes immediately after the adjective being put in the comparative/superlative, __beyond_1__/__beyond_1#MID__ mutates:
+
+- __^Everest PRES be_1 mountain#DEF tall_0#LEN beyond_1#MID#LEN.__ "Everest is the tallest mountain."
+- __chili#CAP ghost PRES be_1 chili#DEF spicy_0#LEN beyond_1#MID#LEN__ "Ghost peppers are the hottest peppers."

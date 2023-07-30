@@ -1,7 +1,7 @@
 id,translation,notes,generator
 LANGNAME,English
 BLANK,BLANK
-be_1,mo
+be_1,ty
 PRES,ys
 evil_0,tavel,wicked; evil
 Q,a,question-marking particle
@@ -16,10 +16,20 @@ god,daes
 ghost,tarosvan
 final_0,metha,last; final
 wish,fonn
-amid_1,ker
+amid_1,ker,in the middle of
 central_0,*amid_1#MID
+middle,amid_1#RESULT
 school,agadh
 curse_1,moll
 curse,*curse_1#RESULT
 head,pen
 pebble,thul
+beyond_1,drow
+through_1,ter
+about_1,bo,about; concerning
+there_0,na
+one,re
+tall_0,hir
+mountain,orod
+spicy_0,gwintas,spicy; hot
+chili,spanta

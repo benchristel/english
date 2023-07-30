@@ -35,3 +35,21 @@ The word order here is _tense-marker, adjective, subject_. __<x-out>Ys<x-src>PRE
 Then comes the adjective, then the noun. There is no word in these sentences meaning "to be". In effect, the adjective can double as a verb.
 
 When spoken aloud, __<x-out>ys<x-src>PRES</x-src></x-out>__ is often shortened to __'<x-out>s<x-src>^s</x-src></x-out>__. And, for that matter, __<x-out>yn<x-src>BLANK#DEF</x-src></x-out>__ is shortened to __'<x-out>n<x-src>^n</x-src></x-out>__ after a vowel. So __<x-out>Ys<x-src>PRES#CAP</x-src></x-out> <x-out>mollu<x-src>curse_1#PASS</x-src></x-out> <x-out>yn agadh<x-src>school#DEF</x-src></x-out>__ might be pronounced something like __'<x-out>S<x-src>^S</x-src></x-out> <x-out>mollu<x-src>curse_1#PASS</x-src></x-out>'<x-out>n<x-src>^n</x-src></x-out> <x-out>agadh<x-src>school</x-src></x-out>__ "The school's cursed".
+
+## Comparatives
+
+To express comparisons between things, __<x-out>English<x-src>LANGNAME</x-src></x-out>__ uses a periphrasic construction with __<x-out>drow<x-src>beyond_1</x-src></x-out>__ "beyond":
+
+- __<x-out>Ys<x-src>PRES#CAP</x-src></x-out> <x-out>tavel<x-src>evil_0</x-src></x-out> <x-out>yn 'wydh<x-src>tree#DEF</x-src></x-out>__ "The tree is evil."
+- __<x-out>Ys<x-src>PRES#CAP</x-src></x-out> <x-out>tavel<x-src>evil_0</x-src></x-out> <x-out>yn 'wydh<x-src>tree#DEF</x-src></x-out> <x-out>drow<x-src>beyond_1</x-src></x-out> <x-out>yn darosvan<x-src>ghost#DEF</x-src></x-out>.__ "The tree is more evil than the ghost." (lit. "The tree is evil beyond the ghost")
+
+## Superlatives
+
+Superlatives are formed similarly to comparatives, using __<x-out>drows<x-src>beyond_1#MID</x-src></x-out>__:
+
+- __<x-out>Ys<x-src>PRES#CAP</x-src></x-out> <x-out>tavel<x-src>evil_0</x-src></x-out> <x-out>yn re<x-src>one#DEF</x-src></x-out> <x-out>na<x-src>there_0#LEN</x-src></x-out> <x-out>drows<x-src>beyond_1#MID</x-src></x-out>__ "That one is the most evil."
+
+When __<x-out>drow<x-src>beyond_1</x-src></x-out>__ or __<x-out>drows<x-src>beyond_1#MID</x-src></x-out>__ comes immediately after the adjective being put in the comparative/superlative, __<x-out>drow<x-src>beyond_1</x-src></x-out>__/__<x-out>drows<x-src>beyond_1#MID</x-src></x-out>__ mutates:
+
+- __<x-out>Everest<x-src>^Everest</x-src></x-out> <x-out>ys<x-src>PRES</x-src></x-out> <x-out>ty<x-src>be_1</x-src></x-out> <x-out>yn orod<x-src>mountain#DEF</x-src></x-out> <x-out>hir<x-src>tall_0#LEN</x-src></x-out> <x-out>dhrows<x-src>beyond_1#MID#LEN</x-src></x-out>.__ "Everest is the tallest mountain."
+- __<x-out>Spanta<x-src>chili#CAP</x-src></x-out> <x-out>tarosvan<x-src>ghost</x-src></x-out> <x-out>ys<x-src>PRES</x-src></x-out> <x-out>ty<x-src>be_1</x-src></x-out> <x-out>yn spanta<x-src>chili#DEF</x-src></x-out> <x-out>'wintas<x-src>spicy_0#LEN</x-src></x-out> <x-out>dhrows<x-src>beyond_1#MID#LEN</x-src></x-out>__ "Ghost peppers are the hottest peppers."
