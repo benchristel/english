@@ -16,6 +16,14 @@ inflections:
     - ["^g", "yn '"]
     - ["^", "yn "]
 
+  PL:
+    - ["^BLANK$", "-ow"]
+    - ["([aeiouy])([ptkdbgnms])$", "$1$2$2ow"]
+    - ["$", "ow"]
+  
+  COLL:
+    - ["$", "iod"]
+
   # Verb inflections
   CAUS:
     - ["^", "ri"]

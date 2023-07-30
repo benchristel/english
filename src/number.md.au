@@ -1,0 +1,21 @@
+# Plurals
+
+The plural of nouns is formed by suffixing __BLANK#PL__. Often, this causes the final consonant to double (in writing).
+
+- __tree#PL__ "trees"
+- __ghost#PL__ "ghosts"
+- __duck#PL__ "ducks"
+
+Nouns also have a collective form similar to the derivation _bag_ &rarr; _baggage_.
+
+- __duck#COLL__ "duckage"
+
+<figure>
+  <img
+    style="max-width: 300px"
+    alt="four ducks standing in the grass"
+    src="/assets/duckage2.webp">
+  <figcaption>Duckage</figcaption>
+</figure>
+
+The exact semantics of singular, plural, and collective forms are still under investigation.

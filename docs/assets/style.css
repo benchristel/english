@@ -142,6 +142,29 @@ article a, article a:visited {
   text-decoration: hsl(177, 70%, 20%) underline;
 }
 
+article figure {
+  display: table;
+  margin: 1em auto;
+  border: 1px solid #fff6;
+  padding: 1em 1em;
+  background-color: #1002;
+}
+
+article figcaption {
+  text-align: center;
+  margin: 0;
+  padding: 0.2em;
+  background: #fff4;
+  /* color: #200; */
+}
+
+article img {
+  display: block;
+  max-width: 100%;
+  border: 1px solid #444;
+  /* box-shadow: 1px 1px #fff9, -1px -1px #fff6; */
+}
+
 a, a:visited {
   color: hsl(177, 70%, 55%);
   text-decoration: rgba(31, 178, 170, 0.7) underline;
