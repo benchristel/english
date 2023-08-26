@@ -1,8 +1,27 @@
 id,translation,notes,generator
 LANGNAME,English
 BLANK,BLANK
-be_1,ty
 PRES,ys
+1SG,ni
+1PL,vi
+2SG,du
+2PL,le
+3SG,ev
+3PL,dho
+1SGPOSS,nin
+1PLPOSS,vin
+2SGPOSS,dwyn
+2PLPOSS,lin
+3SGPOSS,emm
+3PLPOSS,dhyn
+obey_1,himya
+ache_0,gwalya
+act_0,*do_1#MID
+do_1,obyr
+number_1,nivra
+compute_1,rekna
+compute_0,*compute_1#MID
+be_1,ty
 evil_0,tavel,wicked; evil
 Q,a,question-marking particle
 boat,skath
@@ -23,7 +42,7 @@ school,agadh
 curse_1,moll
 curse,*curse_1#RESULT
 head,pen
-pebble,thul
+pebble,theul
 beyond_1,drow
 through_1,ter
 about_1,bo,about; concerning
@@ -34,3 +53,6 @@ mountain,orod
 spicy_0,gwintas,spicy; hot
 chili,spanta
 duck,dweg
+calendar,*month#INST
+computer,*compute_1#INST
+from_1,of

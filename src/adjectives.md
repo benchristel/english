@@ -8,6 +8,7 @@ Determining adjectives require the noun they modify to have the definite article
 
 - __<x-out>yn davel<x-src>evil_0#DEF</x-src></x-out> <x-out>tarosvan<x-src>ghost</x-src></x-out>__ "The evil ghost (as opposed to the good ghost)"
 - __<x-out>ym metha<x-src>final_0#DEF</x-src></x-out> <x-out>fonn<x-src>wish</x-src></x-out>__ "The last wish"
+- __<x-out>yn gers<x-src>central_0#DEF</x-src></x-out> <x-out>gwydh<x-src>tree</x-src></x-out>__ "The middle tree"
 
 If a noun has multiple determining adjectives, only the first one is mutated.
 
@@ -22,7 +23,7 @@ Some determining adjectives join to their nouns with a hyphen to create a new le
 Descriptive adjectives follow the noun they modify.
 
 - __<x-out>tarosvan<x-src>ghost</x-src></x-out> <x-out>davel<x-src>evil_0#LEN</x-src></x-out>__ "An evil ghost"
-- __<x-out>yn 'wydh<x-src>tree#DEF</x-src></x-out> <x-out>gers<x-src>central_0#LEN</x-src></x-out>__ "The middle tree"
+- __<x-out>yn dhweg<x-src>duck#DEF</x-src></x-out> <x-out>vollu<x-src>curse_1#PASS#LEN</x-src></x-out>__ "the damn duck"
 
 ## Predicative Adjectives
 
@@ -52,4 +53,4 @@ Superlatives are formed similarly to comparatives, using __<x-out>drows<x-src>be
 When __<x-out>drow<x-src>beyond_1</x-src></x-out>__ or __<x-out>drows<x-src>beyond_1#MID</x-src></x-out>__ comes immediately after the adjective being put in the comparative/superlative, __<x-out>drow<x-src>beyond_1</x-src></x-out>__/__<x-out>drows<x-src>beyond_1#MID</x-src></x-out>__ mutates:
 
 - __<x-out>Everest<x-src>^Everest</x-src></x-out> <x-out>ys<x-src>PRES</x-src></x-out> <x-out>ty<x-src>be_1</x-src></x-out> <x-out>yn orod<x-src>mountain#DEF</x-src></x-out> <x-out>hir<x-src>tall_0#LEN</x-src></x-out> <x-out>dhrows<x-src>beyond_1#MID#LEN</x-src></x-out>.__ "Everest is the tallest mountain."
-- __<x-out>Spanta<x-src>chili#CAP</x-src></x-out> <x-out>tarosvan<x-src>ghost</x-src></x-out> <x-out>ys<x-src>PRES</x-src></x-out> <x-out>ty<x-src>be_1</x-src></x-out> <x-out>yn spanta<x-src>chili#DEF</x-src></x-out> <x-out>'wintas<x-src>spicy_0#LEN</x-src></x-out> <x-out>dhrows<x-src>beyond_1#MID#LEN</x-src></x-out>__ "Ghost peppers are the hottest peppers."
+- __<x-out>Spantow<x-src>chili#PL#CAP</x-src></x-out> <x-out>tarosvan<x-src>ghost</x-src></x-out> <x-out>ys<x-src>PRES</x-src></x-out> <x-out>ty<x-src>be_1</x-src></x-out> <x-out>yn spantow<x-src>chili#PL#DEF</x-src></x-out> <x-out>'wintas<x-src>spicy_0#LEN</x-src></x-out> <x-out>dhrows<x-src>beyond_1#MID#LEN</x-src></x-out>__ "Ghost peppers are the hottest peppers."

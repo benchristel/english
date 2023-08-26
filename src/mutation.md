@@ -25,4 +25,4 @@ _Mutation_ refers to the way that the initial consonant sound of a word in __<x-
 
 Mutation applies to sounds, not letters. __<x-out>th<x-src>^th</x-src></x-out>__ and __<x-out>dh<x-src>^dh</x-src></x-out>__ don't mutate.
 
-- __<x-out>thul<x-src>pebble</x-src></x-out>__ "pebble" &rarr; __<x-out>thul<x-src>pebble#LEN</x-src></x-out>__.
+- __<x-out>theul<x-src>pebble</x-src></x-out>__ "pebble" &rarr; __<x-out>theul<x-src>pebble#LEN</x-src></x-out>__.

@@ -8,6 +8,7 @@ Determining adjectives require the noun they modify to have the definite article
 
 - __evil_0#DEF ghost__ "The evil ghost (as opposed to the good ghost)"
 - __final_0#DEF wish__ "The last wish"
+- __central_0#DEF tree__ "The middle tree"
 
 If a noun has multiple determining adjectives, only the first one is mutated.
 
@@ -22,7 +23,7 @@ Some determining adjectives join to their nouns with a hyphen to create a new le
 Descriptive adjectives follow the noun they modify.
 
 - __ghost evil_0#LEN__ "An evil ghost"
-- __tree#DEF central_0#LEN__ "The middle tree"
+- __duck#DEF curse_1#PASS#LEN__ "the damn duck"
 
 ## Predicative Adjectives
 
@@ -52,4 +53,4 @@ Superlatives are formed similarly to comparatives, using __beyond_1#MID__:
 When __beyond_1__ or __beyond_1#MID__ comes immediately after the adjective being put in the comparative/superlative, __beyond_1__/__beyond_1#MID__ mutates:
 
 - __^Everest PRES be_1 mountain#DEF tall_0#LEN beyond_1#MID#LEN.__ "Everest is the tallest mountain."
-- __chili#CAP ghost PRES be_1 chili#DEF spicy_0#LEN beyond_1#MID#LEN__ "Ghost peppers are the hottest peppers."
+- __chili#PL#CAP ghost PRES be_1 chili#PL#DEF spicy_0#LEN beyond_1#MID#LEN__ "Ghost peppers are the hottest peppers."

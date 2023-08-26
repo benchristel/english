@@ -1,0 +1,15 @@
+# Pronouns
+
+| Person | Singular | Plural  |
+| ------ | -------- | ------- |
+| 1st    | __1SG__ "I, me" | __1PL__ "we, us" |
+| 2nd    | __2SG__ "you" | __2PL__ "you all" |
+| 3rd    | __3SG__ "he, she, it"  | __3PL__ "they, them" |
+
+## Possessive Pronouns
+
+| Person | Singular | Plural  |
+| ------ | -------- | ------- |
+| 1st    | __1SGPOSS__ "my"  | __1PLPOSS__ "our" |
+| 2nd    | __2SGPOSS__ "your" | __2PLPOSS__ "y'all's" |
+| 3rd    | __3SGPOSS__ "his, her, its" | __3PLPOSS__ "their" |

@@ -18,6 +18,7 @@ inflections:
 
   PL:
     - ["^BLANK$", "-ow"]
+    - ["[aeiouy]$", "ow"]
     - ["([aeiouy])([ptkdbgnms])$", "$1$2$2ow"]
     - ["$", "ow"]
   
@@ -34,6 +35,12 @@ inflections:
   RESULT:
     - ["$", "geth"]
   
+  # Derivations
+  INST:
+    # forms the name of an instrument from the verb associated with that
+    # instrument.
+    - ["[aeiouy]$", "ell"]
+
   # Phonological processes
   LEN:
     - ["^([td]h)", "$1"]

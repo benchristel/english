@@ -3,3 +3,6 @@ mutation.html
 articles.html
 number.html
 adjectives.html
+
+!unspecified
+pronouns.html
