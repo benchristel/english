@@ -5,4 +5,5 @@ number.html
 adjectives.html
 
 !unspecified
+lexicon.html
 pronouns.html
