@@ -1,12 +1,20 @@
-# Plurals
+# Number
 
-The plural of nouns is formed by suffixing __BLANK#PL__. Often, this causes the final consonant to double (in writing).
+There are two main classes of nouns: _count nouns_ and _mass nouns_.
 
-- __tree#PL__ "trees"
-- __ghost#PL__ "ghosts"
-- __duck#PL__ "ducks"
+## Count Nouns
 
-Nouns also have a collective form similar to the derivation _bag_ &rarr; _baggage_.
+Most nouns are _count nouns_, which have singular and plural forms. The singular is the form found in the dictionary. To form the plural, suffix __BLANK#PL__.
+
+- __tree__ "tree" &rarr; __tree#PL__ "trees"
+
+Often, the plural suffix causes the final consonant of the word to double (in writing).
+
+- __ghost__ "ghost" &rarr; __ghost#PL__ "ghosts"
+- __duck__ "duck" &rarr; __duck#PL__ "ducks"
+
+Count nouns also have a collective form similar to the derivation _bag_ &rarr; _baggage_.
+The collective is formed by suffixing __BLANK#COLL__.
 
 - __duck#COLL__ "duckage"
 
@@ -18,4 +26,17 @@ Nouns also have a collective form similar to the derivation _bag_ &rarr; _baggag
   <figcaption>Duckage</figcaption>
 </figure>
 
-The exact semantics of singular, plural, and collective forms are still under investigation.
+Collective forms mean essentially "the set of all Xs (under discussion)". For the purposes of agreement, collective forms are singular. For example, you'd refer back to
+a collective noun using a singular pronoun.
+
+Collective nouns are used when talking about groups of things whose individuality
+is not important, e.g. __star#COLL__ "stars, as a group or phenomenon". They are also used when the number of things under discussion is
+unknown, e.g. __child#COLL__ "child(ren)", __furnishing#COLL__ "furniture".
+The collective forms can be treated as mass nouns, e.g. __pebble#COLL__ "gravel" from __pebble__ "pebble".
+
+## Mass Nouns
+
+All mass nouns in __LANGNAME__ are formed from adjectives by adding the collective suffix discussed above.
+
+- __monster iron_0#LEN__ "iron monster" (iron used as an adjective "made of iron")
+- __iron_0#COLL__ "iron (as a material)"

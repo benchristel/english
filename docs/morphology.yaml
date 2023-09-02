@@ -23,6 +23,8 @@ inflections:
     - ["$", "ow"]
   
   COLL:
+    - ["^BLANK$", "-iod"]
+    - ["y[aeiou]$", "iod"]
     - ["$", "iod"]
 
   # Verb inflections

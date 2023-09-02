@@ -2,6 +2,7 @@ id,translation,notes,generator
 LANGNAME,English
 BLANK,BLANK
 PRES,ys
+PAST,aer
 1SG,ni
 1PL,vi
 2SG,du
@@ -56,3 +57,14 @@ duck,dweg
 calendar,*month#INST
 computer,*compute_1#INST
 from_1,of
+child,flenn
+furnishing,cafytya
+iron_0,onn
+even_0,adwi,even; just right; suitable; harmonious; balanced
+time,gall
+evening,[*even+*time#LEN]
+watch_1,mir
+walk_0,bada
+with_1,go,comitative with; and
+meet_0,[co+*walk_0#LEN]
+of_1,ga
