@@ -24,18 +24,30 @@ inflections:
   
   COLL:
     - ["^BLANK$", "-iod"]
-    - ["y[aeiou]$", "iod"]
+    - ["[iy][aeiou]$", "iod"]
     - ["$", "iod"]
 
   # Verb inflections
   CAUS:
-    - ["^", "ri"]
+    - ["([aeiouy])([^aeiouy]*)$", "$1vo$2"]
   PASS:
-    - ["$", "u"]
+    - ["$", "s"]
   MID:
     - ["$", "s"]
   RESULT:
     - ["$", "geth"]
+  INF:
+    - ["$", "va"]
+  GER:
+    - ["^BLANK$", "-iod"]
+    - ["[iy][aeiou]$", "iod"]
+    - ["$", "iod"]
+  NEG:
+    - ["^g", "nag g"]
+    - ["^c", "nac c"]
+    - ["^d", "nad d"]
+    - ["^t", "nat t"]
+    - ["^", "nâ "]
   
   # Derivations
   INST:

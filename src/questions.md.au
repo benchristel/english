@@ -1,0 +1,27 @@
+# Questions
+
+## Yes/No Questions
+
+To make a sentence into a yes/no question, add __Q__ at the beginning of the sentence.
+
+__2SG#CAP FIN see_1#MID__ "You see" &rarr; __Q#CAP 2SG FIN see_1#MID?__ "Do you see?"
+
+## Content Questions
+
+Content questions start with an _interrogative pronoun_, like __what__ "what", __who__ "who", or __where__ "where".
+
+## Questions as Noun Phrases
+
+Syntactically, questions are noun phrases. Thus, they can form part of a larger sentence, standing in for a noun.
+
+__give_2#INF#CAP 1SG tale of_1#LEN who 2SG PAST see_1.__ "Tell me who you saw."
+
+__1SG#CAP PRES know_1#NEG Q 3SG PAST turn_1 3PL.__ "I don't know if he turned them."
+
+__who#CAP FIN touch_1 stone#DEF FUT die_0.__ "Who(ever) touches the stone will die."
+
+## Questions as Relative Clauses
+
+Since a question is a noun, it can be related to another noun using the appositive construction with __be_1__:
+
+__king#DEF#CAP be_1#LEN who PAST dwell_0 on_1#LEN boat.__ "The king who lived on a boat."

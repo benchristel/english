@@ -1,0 +1,8 @@
+# Appositives
+
+An appositive construction is when two noun phrases next to each other refer to the same thing.
+In __LANGNAME__, nouns in an appositive phrase must be joined by __be_1__ "being". As a modifier, __be_1__ is mutated to __be_1#LEN__ if, and only if, it immediately follows the noun it modifies.
+
+__^Aragorn be_1#LEN king#CAP of_1#LEN ^Gondor__ "Aragorn, King of Gondor"
+
+__neighbor#DEF#CAP 1SGPOSS#LEN be_1 ^Totoro__ "My neighbor Totoro"

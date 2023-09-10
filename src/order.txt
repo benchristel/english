@@ -3,3 +3,7 @@ mutation.html
 articles.html
 number.html
 adjectives.html
+pronouns.html
+appositives.html
+questions.html
+lexicon.html

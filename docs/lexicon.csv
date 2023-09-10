@@ -2,10 +2,12 @@ id,translation,notes,generator
 LANGNAME,English
 BLANK,BLANK
 PRES,ys
-PAST,aer
+PAST,o
+FIN,a
+FUT,vrow
 1SG,ni
 1PL,vi
-2SG,du
+2SG,yth
 2PL,le
 3SG,ev
 3PL,dho
@@ -24,7 +26,7 @@ compute_1,rekna
 compute_0,*compute_1#MID
 be_1,ty
 evil_0,tavel,wicked; evil
-Q,a,question-marking particle
+Q,cann,question-marking particle
 boat,skath
 tree,gwydh
 monster,oethvil
@@ -68,3 +70,17 @@ walk_0,bada
 with_1,go,comitative with; and
 meet_0,[co+*walk_0#LEN]
 of_1,ga
+who,pyw
+tale,hwedhel
+give_2,*have_1#CAUS
+have_1,*of_1#PASS
+see_1,gweld
+turn_1,tro
+know_1,goff
+touch_1,tappa
+stone,mon
+die_0,ladha
+king,taran
+dwell_0,bidha
+on_1,war
+neighbor,gobiri
