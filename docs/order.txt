@@ -7,3 +7,6 @@ pronouns.html
 appositives.html
 questions.html
 lexicon.html
+
+!unspecified
+verbs.html

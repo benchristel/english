@@ -23,19 +23,19 @@ Some determining adjectives join to their nouns with a hyphen to create a new le
 Descriptive adjectives follow the noun they modify.
 
 - __<x-out>tarosvan<x-src>ghost</x-src></x-out> <x-out>davel<x-src>evil_0#LEN</x-src></x-out>__ "An evil ghost"
-- __<x-out>yn dhweg<x-src>duck#DEF</x-src></x-out> <x-out>volls<x-src>curse_1#PASS#LEN</x-src></x-out>__ "the damn duck"
+- __<x-out>yn dhweg<x-src>duck#DEF</x-src></x-out> <x-out>vollyn<x-src>curse_1#PASS#LEN</x-src></x-out>__ "the damn duck"
 
 ## Predicative Adjectives
 
 So far, we've seen adjectives attach to noun phrases as modifiers. Adjectives may also be used as the main _predicate_ of a sentence. This is the difference between the phrase _the tall man_ (modifier) and the sentence _the man is tall_ (predicate).
 
 - __<x-out>Ys<x-src>PRES#CAP</x-src></x-out> <x-out>tavel<x-src>evil_0</x-src></x-out> <x-out>yn 'wydh<x-src>tree#DEF</x-src></x-out>__ "The tree is evil"
-- __<x-out>Ys<x-src>PRES#CAP</x-src></x-out> <x-out>molls<x-src>curse_1#PASS</x-src></x-out> <x-out>yn agadh<x-src>school#DEF</x-src></x-out>__ "The school is cursed"
+- __<x-out>Ys<x-src>PRES#CAP</x-src></x-out> <x-out>mollyn<x-src>curse_1#PASS</x-src></x-out> <x-out>yn agadh<x-src>school#DEF</x-src></x-out>__ "The school is cursed"
 
 The word order here is _tense-marker, adjective, subject_. __<x-out>Ys<x-src>PRES#CAP</x-src></x-out>__ marks the present tense.
 Then comes the adjective, then the noun. There is no word in these sentences meaning "to be". In effect, the adjective can double as a verb.
 
-When spoken aloud, __<x-out>ys<x-src>PRES</x-src></x-out>__ is often shortened to __'<x-out>s<x-src>^s</x-src></x-out>__. And, for that matter, __<x-out>yn<x-src>BLANK#DEF</x-src></x-out>__ is shortened to __'<x-out>n<x-src>^n</x-src></x-out>__ after a vowel. So __<x-out>Ys<x-src>PRES#CAP</x-src></x-out> <x-out>molls<x-src>curse_1#PASS</x-src></x-out> <x-out>yn agadh<x-src>school#DEF</x-src></x-out>__ might be pronounced something like __'<x-out>S<x-src>^S</x-src></x-out> <x-out>molls<x-src>curse_1#PASS</x-src></x-out>'<x-out>n<x-src>^n</x-src></x-out> <x-out>agadh<x-src>school</x-src></x-out>__ "The school's cursed".
+When spoken aloud, __<x-out>ys<x-src>PRES</x-src></x-out>__ is often shortened to __'<x-out>s<x-src>^s</x-src></x-out>__. And, for that matter, __<x-out>yn<x-src>BLANK#DEF</x-src></x-out>__ is shortened to __'<x-out>n<x-src>^n</x-src></x-out>__ after a vowel. So __<x-out>Ys<x-src>PRES#CAP</x-src></x-out> <x-out>mollyn<x-src>curse_1#PASS</x-src></x-out> <x-out>yn agadh<x-src>school#DEF</x-src></x-out>__ might be pronounced something like __'<x-out>S<x-src>^S</x-src></x-out> <x-out>mollyn<x-src>curse_1#PASS</x-src></x-out>'<x-out>n<x-src>^n</x-src></x-out> <x-out>agadh<x-src>school</x-src></x-out>__ "The school's cursed".
 
 ## Comparatives
 

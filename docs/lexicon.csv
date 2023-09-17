@@ -1,6 +1,7 @@
 id,translation,notes,generator
 LANGNAME,English
 BLANK,BLANK
+BLANCA,BLANCA
 PRES,ys
 PAST,o
 FIN,a
@@ -40,7 +41,7 @@ final_0,metha,last; final
 wish,fonn
 amid_1,ker,in the middle of
 central_0,*amid_1#MID
-middle,amid_1#RESULT
+middle,*amid_1#RESULT
 school,agadh
 curse_1,moll
 curse,*curse_1#RESULT

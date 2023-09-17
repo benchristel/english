@@ -135,6 +135,7 @@ article {
   border-image-slice: 394 80 440 80 fill;
   border-image-width: 394px 80px 400px 80px;
   min-height: 800px;
+  line-height: 150%;
 }
 
 article a, article a:visited {
@@ -193,6 +194,11 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
 }
 
+article li {
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+}
+
 table {
   border-spacing: 1px;
   border: 1px solid #0002
@@ -204,7 +210,7 @@ th, td {
   padding: 2px 6px;
 }
 
-strong {
+strong x-out {
   color: #00462f;
   font-family: 'Times New Roman', Times, Georgia, serif;
   font-size: 13pt;

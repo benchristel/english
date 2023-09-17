@@ -1,0 +1,20 @@
+# Verb Forms
+
+Verbs in __LANGNAME__ have several forms:
+
+- **active participle:** This is the unaltered, dictionary form of the verb.
+- **passive participle:** Formed by suffixing __BLANK#PASS__ after a consonant, or __BLANCA#PASS__ after a vowel. E.g. __see_1__ "seeing" &rarr; __see_1#PASS__ "being seen"; __die_0#CAUS__ "killing" &rarr; __die_0#CAUS#PASS__ "being killed".
+- **middle participle:** Formed by suffixing __BLANK#MID__. E.g. __see_1__ "seeing (something) &rarr; __see_1#MID__ "seeing (in general)".
+- **causative:** Formed by suffixing __BLANK#CAUS__. E.g. __see_1#CAUS__ "show, make see"
+- **infinitive:** Formed by suffixing __BLANK#INF__. E.g. __see_1#INF__ "to see (something)". The same form is used for the imperative ("see!").
+  When applied to a causative, the infinitive affix becomes __^-^vva__ or __^-^ffa__: __die_0#CAUS#INF__ "to kill", __give_2#INF__ "to give".
+- **past:** Formed by adding __PAST__ before the verb. E.g. __PAST see_1__ "saw".
+- **present:** Formed by adding __PRES__ before the verb. E.g. __PRES see_1__ "sees, is seeing".
+- **future:** Formed by adding __FUT__ before the verb. E.g. __FUT see_1__ "will see".
+- **finite:** A general, "timeless" form. Formed by adding __FIN__ before the verb. E.g. __FIN see_1__ "sees/saw".
+
+There are several constructions that create a noun from a verb:
+
+- **gerund:** formed by suffixing __BLANK#GER__. E.g. __see_1#GER__ "sight".
+- **agentive:** formed by suffixing __BLANK#AGT__. E.g. __give_2#AGT__ "giver", __see_1#AGT__ "seer". A patientive form can be created by combining this with the passive: __see_1#PASS#AGT__ "seen".
+- **resultative:** formed by suffixing __BLANK#RESULT__. E.g. __curse__ "curse" &larr; __curse_1__, __middle__ "middle" &larr; __amid_1__ "amid".

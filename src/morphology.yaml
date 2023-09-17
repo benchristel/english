@@ -29,17 +29,32 @@ inflections:
 
   # Verb inflections
   CAUS:
-    - ["([aeiouy])([^aeiouy]*)$", "$1vo$2"]
+    - ["^BLANK$", "-vo"]
+    - ["$", "vo"]
   PASS:
-    - ["$", "s"]
+    - ["^BLANCA$", "-n"]
+    - ["^BLANK$", "-yn"]
+    - ["([aeiouy])$", "$1n"]
+    - ["$", "yn"]
   MID:
+    - ["^BLANK$", "-s"]
     - ["$", "s"]
   RESULT:
+    - ["^BLANK$", "-geth"]
     - ["$", "geth"]
+  AGT:
+    - ["^BLANK$", "-dir"]
+    - ["n$", "nnir"]
+    - ["d$", "dir"]
+    - ["$", "dir"]
   INF:
+    - ["^BLANK$", "-va"]
+    - ["([aeiouy])vo$", "$1vva"]
+    - ["vo$", "ffa"]
     - ["$", "va"]
   GER:
     - ["^BLANK$", "-iod"]
+    - ["([nlrs])[td]$", "$1$1iod"]
     - ["[iy][aeiou]$", "iod"]
     - ["$", "iod"]
   NEG:
