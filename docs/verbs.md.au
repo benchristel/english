@@ -18,3 +18,30 @@ There are several constructions that create a noun from a verb:
 - **gerund:** formed by suffixing __BLANK#GER__. E.g. __see_1#GER__ "sight".
 - **agentive:** formed by suffixing __BLANK#AGT__. E.g. __give_2#AGT__ "giver", __see_1#AGT__ "seer". A patientive form can be created by combining this with the passive: __see_1#PASS#AGT__ "seen".
 - **resultative:** formed by suffixing __BLANK#RESULT__. E.g. __curse__ "curse" &larr; __curse_1__, __middle__ "middle" &larr; __amid_1__ "amid".
+
+<div class="exercise">
+
+## Exercise 1
+
+Create the passive form of these verbs.
+
+---
+
+- __see_1__ | __see_1#PASS__
+- __touch_1__ | __touch_1#PASS__
+
+</div>
+
+<div class="exercise">
+
+## Exercise 2
+
+Convert these sentences to passive voice.
+
+Example: __^Boromir FIN see_1 mountain#DEF__ &rarr; __mountain#DEF#CAP FIN see_1#PASS ^Boromir__
+
+---
+
+- __^Boromir FIN see_1 ghost#DEF#PL__ | __ghost#DEF#PL#CAP FIN see_1#PASS ^Boromir__
+
+</div>

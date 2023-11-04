@@ -18,3 +18,30 @@ There are several constructions that create a noun from a verb:
 - **gerund:** formed by suffixing __<x-out>-iod<x-src>BLANK#GER</x-src></x-out>__. E.g. __<x-out>gwelliod<x-src>see_1#GER</x-src></x-out>__ "sight".
 - **agentive:** formed by suffixing __<x-out>-dir<x-src>BLANK#AGT</x-src></x-out>__. E.g. __<x-out>ganvodir<x-src>give_2#AGT</x-src></x-out>__ "giver", __<x-out>gweldir<x-src>see_1#AGT</x-src></x-out>__ "seer". A patientive form can be created by combining this with the passive: __<x-out>gweldynnir<x-src>see_1#PASS#AGT</x-src></x-out>__ "seen".
 - **resultative:** formed by suffixing __<x-out>-geth<x-src>BLANK#RESULT</x-src></x-out>__. E.g. __<x-out>mollgeth<x-src>curse</x-src></x-out>__ "curse" &larr; __<x-out>moll<x-src>curse_1</x-src></x-out>__, __<x-out>kergeth<x-src>middle</x-src></x-out>__ "middle" &larr; __<x-out>ker<x-src>amid_1</x-src></x-out>__ "amid".
+
+<div class="exercise">
+
+## Exercise 1
+
+Create the passive form of these verbs.
+
+---
+
+- __<x-out>gweld<x-src>see_1</x-src></x-out>__ | __<x-out>gweldyn<x-src>see_1#PASS</x-src></x-out>__
+- __<x-out>tappa<x-src>touch_1</x-src></x-out>__ | __<x-out>tappan<x-src>touch_1#PASS</x-src></x-out>__
+
+</div>
+
+<div class="exercise">
+
+## Exercise 2
+
+Convert these sentences to passive voice.
+
+Example: __<x-out>Boromir<x-src>^Boromir</x-src></x-out> <x-out>a<x-src>FIN</x-src></x-out> <x-out>gweld<x-src>see_1</x-src></x-out> <x-out>yn orod<x-src>mountain#DEF</x-src></x-out>__ &rarr; __<x-out>Yn orod<x-src>mountain#DEF#CAP</x-src></x-out> <x-out>a<x-src>FIN</x-src></x-out> <x-out>gweldyn<x-src>see_1#PASS</x-src></x-out> <x-out>Boromir<x-src>^Boromir</x-src></x-out>__
+
+---
+
+- __<x-out>Boromir<x-src>^Boromir</x-src></x-out> <x-out>a<x-src>FIN</x-src></x-out> <x-out>gweld<x-src>see_1</x-src></x-out> <x-out>yn darosvannow<x-src>ghost#DEF#PL</x-src></x-out>__ | __<x-out>Yn darosvannow<x-src>ghost#DEF#PL#CAP</x-src></x-out> <x-out>a<x-src>FIN</x-src></x-out> <x-out>gweldyn<x-src>see_1#PASS</x-src></x-out> <x-out>Boromir<x-src>^Boromir</x-src></x-out>__
+
+</div>
