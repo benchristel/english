@@ -9,4 +9,5 @@ questions.html
 lexicon.html
 
 !unspecified
+pleasantries.html
 verbs.html

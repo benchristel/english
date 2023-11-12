@@ -1,0 +1,21 @@
+# Lesson 1: Pleasantries
+
+- __<x-out>suiloddow<x-src>greeting#PL</x-src></x-out>!__ "Greetings!"
+- __<x-out>mynn<x-src>morning</x-src></x-out> <x-out>da<x-src>pleasant_0#LEN</x-src></x-out>__ "Good morning."
+- __<x-out>dydh<x-src>day</x-src></x-out> <x-out>da<x-src>pleasant_0#LEN</x-src></x-out>__ "Good day."
+- __<x-out>adwiall<x-src>evening</x-src></x-out> <x-out>da<x-src>pleasant_0#LEN</x-src></x-out>__ "Good evening."
+- __<x-out>ta<x-src>pleasant_0</x-src></x-out>__ "Hi/bye" (informal)
+- __<x-out>cann<x-src>Q</x-src></x-out> <x-out>a<x-src>FIN</x-src></x-out> <x-out>mara<x-src>good_0</x-src></x-out>__ "How are you?"
+- __<x-out>mara<x-src>good_0</x-src></x-out> <x-out><x-src>suffice_0#LEN</x-src></x-out>__ "Well enough."
+- __<x-out>mara<x-src>good_0</x-src></x-out> <x-out>vaer<x-src>very_0#LEN</x-src></x-out>__ "Very well."
+- __<x-out>mara<x-src>good_0</x-src></x-out> <x-out>vaer<x-src>very_0#LEN</x-src></x-out>, <x-out>ac<x-src>and</x-src></x-out> <x-out>yth<x-src>2SG</x-src></x-out>?__ "Very well, and you?"
+- __<x-out>mara<x-src>good_0</x-src></x-out> <x-out>vaer<x-src>very_0#LEN</x-src></x-out>, <x-out>a<x-src>FIN</x-src></x-out> <x-out>han<x-src>thank_1</x-src></x-out> <x-out>yth<x-src>2SG</x-src></x-out>.__ "Very well, thank you."
+- __<x-out>flan<x-src>excellent_0</x-src></x-out>__ "Excellent."
+- __<x-out>teg<x-src>exact_0</x-src></x-out>__ "Perfect."
+- __<x-out>nâ mara<x-src>good_0#NEG</x-src></x-out>__ "Not well."
+- __<x-out>drog<x-src>bad_0</x-src></x-out>__ "Bad."
+- __<x-out>drog<x-src>bad_0</x-src></x-out> <x-out>vaer<x-src>very_0#LEN</x-src></x-out>__ "Very bad."
+- __<x-out>marava<x-src>good_0#INF</x-src></x-out>__ "Farewell."
+- __<x-out>reyava<x-src>travel_0#INF</x-src></x-out> <x-out>deg<x-src>exact_0#LEN</x-src></x-out>__ "Fair travels."
+- __<x-out>bidhava<x-src>dwell_0#INF</x-src></x-out> <x-out>vara<x-src>good_0#LEN</x-src></x-out>__ "Be well."
+- __<x-out>lostava<x-src>sleep_0#INF</x-src></x-out> <x-out>da<x-src>pleasant_0#LEN</x-src></x-out>__ "Good night."

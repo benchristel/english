@@ -56,6 +56,7 @@ inflections:
     - ["^BLANK$", "-iod"]
     - ["([nlrs])[td]$", "$1$1iod"]
     - ["[iy][aeiou]$", "iod"]
+    - ["a$", "od"]
     - ["$", "iod"]
   NEG:
     - ["^g", "nag g"]
@@ -79,3 +80,12 @@ inflections:
     - ["^d", "dh"]
     - ["^[mb]", "v"]
     - ["^g", "'"]
+  
+  COMPOUND_LEN:
+    - ["^([td]h)", "$1"]
+    - ["^p", "b"]
+    - ["^t", "d"]
+    - ["^k", "g"]
+    - ["^d", "dh"]
+    - ["^[mb]", "v"]
+    - ["^g", ""]

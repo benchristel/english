@@ -65,7 +65,7 @@ furnishing,cafytya
 iron_0,onn
 even_0,adwi,even; just right; suitable; harmonious; balanced
 time,gall
-evening,[*even+*time#LEN]
+evening,[*even_0+*time#COMPOUND_LEN]
 watch_1,mir
 walk_0,bada
 with_1,go,comitative with; and
@@ -85,3 +85,19 @@ king,taran
 dwell_0,bidha
 on_1,war
 neighbor,gobiri
+greet_1,suila
+greeting,*greet_1#GER
+morning,mynn
+pleasant_0,ta,good; used for weather
+day,dydh
+exact_0,teg
+suffice_0,
+very_0,maer
+good_0,mara,well; used for health and felicity
+and,ac
+thank_1,han
+excellent_0,flan
+travel_0,reya
+night,du
+sleep_0,losta
+bad_0,drog

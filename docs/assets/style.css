@@ -212,6 +212,9 @@ th, td {
 
 strong x-out {
   color: #00462f;
+}
+
+strong {
   font-family: 'Times New Roman', Times, Georgia, serif;
   font-size: 13pt;
   font-style: italic;
