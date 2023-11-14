@@ -18,6 +18,7 @@ inflections:
 
   PL:
     - ["^BLANK$", "-ow"]
+    - ["o$", "aow"]
     - ["[aeiouy]$", "ow"]
     - ["([aeiouy])([ptkdbgnms])$", "$1$2$2ow"]
     - ["$", "ow"]
@@ -32,13 +33,15 @@ inflections:
     - ["^BLANK$", "-vo"]
     - ["$", "vo"]
   PASS:
-    - ["^BLANCA$", "-n"]
-    - ["^BLANK$", "-yn"]
-    - ["([aeiouy])$", "$1n"]
-    - ["$", "yn"]
+    - ["^BLANCA$", "-s"]
+    - ["^BLANK$", "-ys"]
+    - ["([aeiouy])$", "$1s"]
+    - ["$", "ys"]
   MID:
-    - ["^BLANK$", "-s"]
-    - ["$", "s"]
+    - ["^BLANK$", "-n"]
+    - ["s$", "ns"]
+    - ["([aeiouy])$", "n"]
+    - ["$", "en"]
   RESULT:
     - ["^BLANK$", "-geth"]
     - ["$", "geth"]
