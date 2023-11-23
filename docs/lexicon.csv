@@ -19,6 +19,7 @@ FUT,vrow
 2PLPOSS,lin
 3SGPOSS,emm
 3PLPOSS,dhyn
+TRACE,owl
 obey_1,himya
 ache_0,gwalya
 act_0,*do_1#MID
@@ -73,8 +74,12 @@ with_1,go,comitative with; and
 meet_0,[co+*walk_0#LEN]
 of_1,ga
 who,pyw
+what,pyth
+where,[*what+*place]
+place,lae
 how_condition,pedel,interrogative pro-verb
 tale,hwedhel
+ring,barth
 give_2,*have_1#CAUS
 have_1,*of_1#PASS
 see_1,gweld

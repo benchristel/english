@@ -10,6 +10,22 @@ __2SG#CAP FIN see_1#MID__ "You see" &rarr; __Q#CAP 2SG FIN see_1#MID?__ "Do you 
 
 Content questions start with an _interrogative pronoun_, like __what__ "what", __who__ "who", or __where__ "where".
 
+The interrogative pronoun is usually fronted:
+
+__who#CAP PAST give_2 2SG ring#DEF there_0?__ "Who gave you that ring?"
+
+A resumptive pronoun __TRACE__ can optionally be left in the interrogative pronoun's place:
+
+__who#CAP 2SG PAST give_2 TRACE ring#DEF there_0?__ "Who did you give that ring to?"
+
+If there are multiple interrogative pronouns, only the first is fronted:
+
+__who#CAP 2SG PAST give_2 TRACE what?__ "Who did you give what to?"
+
+Alternatively, the interrogative pronoun(s) can be left in place:
+
+__2SG#CAP PAST give_2 who what?__ "You gave _what_ to _who_?"
+
 ## Questions as Noun Phrases
 
 Syntactically, questions are noun phrases. Thus, they can form part of a larger sentence, standing in for a noun.
