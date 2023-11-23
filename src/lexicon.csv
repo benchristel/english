@@ -2,6 +2,7 @@ id,translation,notes,generator
 LANGNAME,English
 BLANK,BLANK
 BLANCA,BLANCA
+FILLME,_________
 PRES,ys
 PAST,o
 FIN,a
@@ -72,6 +73,7 @@ with_1,go,comitative with; and
 meet_0,[co+*walk_0#LEN]
 of_1,ga
 who,pyw
+how_condition,pedel,interrogative pro-verb
 tale,hwedhel
 give_2,*have_1#CAUS
 have_1,*of_1#PASS
@@ -91,7 +93,7 @@ morning,mynn
 pleasant_0,ta,good; used for weather
 day,dydh
 exact_0,teg
-suffice_0,
+suffice_0,*fill_1#PASSMID
 very_0,maer
 good_0,mara,well; used for health and felicity
 and,ac
@@ -101,3 +103,5 @@ travel_0,reya
 night,du
 sleep_0,losta
 bad_0,drog
+fill_1,len
+exist_0,*of_1#MID

@@ -26,30 +26,55 @@ function parseExercise(exerciseSpec) {
       }
     })
 
-  const ret = {promptElements, questions}
-  console.log(ret)
-  return ret
+  return {promptElements, questions}
+}
+
+function pickRandomly(howMany, array) {
+  return shuffle(array).slice(0, howMany)
+}
+
+function shuffle(array) {
+  array = [...array]
+  for (let lh = 0; lh < array.length; lh++) {
+    const rh = randIntInRange(lh, array.length - 1)
+    const tmp = array[lh]
+    array[lh] = array[rh]
+    array[rh] = tmp
+  }
+  return array
+}
+
+function randIntInRange(min, max) {
+  return Math.floor(Math.random() * (max - min)) + min
 }
 
 function initExerciseComponent(exercise, root) {
-  const guesses = exercise.questions.map(() => "")
-  const marks = exercise.questions.map(() => "unmarked")
+  let questions = pickRandomly(4, exercise.questions)
+  let guesses = exercise.questions.map(() => "")
+  let marks = exercise.questions.map(() => "unmarked")
+  
 
   function checkAnswers() {
-    for (let i = 0; i < exercise.questions.length; i++) {
-      if (isCloseEnough(guesses[i], exercise.questions[i].correctAnswer)) {
+    for (let i = 0; i < questions.length; i++) {
+      if (isCloseEnough(guesses[i], questions[i].correctAnswer)) {
         marks[i] = "correct"
       } else {
-        console.log(["the correct answer is", exercise.questions[i].correctAnswer])
+        console.log(["the correct answer is", questions[i].correctAnswer])
         marks[i] = "incorrect"
       }
     }
     render()
   }
 
+  function refreshQuestions() {
+    questions = pickRandomly(4, exercise.questions)
+    guesses = guesses = exercise.questions.map(() => "")
+    marks = exercise.questions.map(() => "unmarked")
+    render()
+  }
+
   const setGuess = (questionIndex) => (event) => {
     guesses[questionIndex] = event.target.value
-    console.log(...guesses)
   }
 
   function render() {
@@ -58,7 +83,7 @@ function initExerciseComponent(exercise, root) {
       h("div", {class: "exercise"}, 
         ...exercise.promptElements,
         h("ul", {},
-          ...exercise.questions.map((question, questionIndex) =>
+          ...questions.map((question, questionIndex) =>
             h("li", {},
               ...parseHtml(question.stimulusHtml),
               h("div", {class: "answer"},
@@ -68,7 +93,8 @@ function initExerciseComponent(exercise, root) {
             )
           ),
         ),
-        h("button", {onclick: checkAnswers}, "Check answers")
+        h("button", {onclick: checkAnswers}, "Check answers"),
+        h("button", {onclick: refreshQuestions}, "More questions like this")
       )
     )
   }
@@ -108,8 +134,6 @@ function normalizeAnswer(s) {
     .trim()
 }
 
-console.log(normalizeAnswer("yn darosvannow a gweldyn boromir."))
-
 function $(selector, root = document) {
   return [...root.querySelectorAll(selector)]
 }
@@ -126,7 +150,7 @@ function trim(s) {
 const htmlParserDummyNode = h("div", {})
 function parseHtml(html) {
   htmlParserDummyNode.innerHTML = html
-  return htmlParserDummyNode.children
+  return htmlParserDummyNode.childNodes
 }
 
 main()

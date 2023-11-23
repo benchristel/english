@@ -5,7 +5,9 @@
 - __day pleasant_0#LEN__ "Good day."
 - __evening pleasant_0#LEN__ "Good evening."
 - __pleasant_0__ "Hi/bye" (informal)
-- __Q FIN good_0__ "How are you?"
+- __Q#CAP FIN good_0?__ "Are you well?"
+- __how_condition#CAP FIN exist_0?__ "How are you?"
+- __good_0__ "Well."
 - __good_0 suffice_0#LEN__ "Well enough."
 - __good_0 very_0#LEN__ "Very well."
 - __good_0 very_0#LEN, and 2SG?__ "Very well, and you?"
@@ -19,3 +21,40 @@
 - __travel_0#INF exact_0#LEN__ "Fair travels."
 - __dwell_0#INF good_0#LEN__ "Be well."
 - __sleep_0#INF pleasant_0#LEN__ "Good night."
+
+<div class="exercise">
+
+## Exercise 1
+
+What would you say in each of these situations?
+
+---
+
+- meeting at 8 AM | __morning pleasant_0#LEN__
+- meeting at 7:30 AM | __morning pleasant_0#LEN__
+- meeting at 8:30 AM | __morning pleasant_0#LEN__
+- meeting at 1 PM | __day pleasant_0#LEN__
+- meeting at 1:30 PM | __day pleasant_0#LEN__
+- meeting at 2 PM | __day pleasant_0#LEN__
+- departing at 9 PM | __sleep_0#INF pleasant_0#LEN__
+- departing at 10 PM | __sleep_0#INF pleasant_0#LEN__
+- meeting at 7 PM | __evening pleasant_0#LEN__
+- meeting at 7:30 PM | __evening pleasant_0#LEN__
+- meeting at 8 PM | __evening pleasant_0#LEN__
+- departing at 10 AM | __pleasant_0__
+- departing at 1 PM | __pleasant_0__
+- departing at 2 PM | __pleasant_0__
+
+</div>
+
+<div class="exercise">
+
+## Exercise 2
+
+Fill in the blank:
+
+---
+
+- __"Q#CAP FIN good_0?" "good_0#CAP very_0#LEN, FILLME, and 2SG?"__ | __FIN thank_1 2SG__
+
+</div>

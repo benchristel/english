@@ -33,6 +33,11 @@ inflections:
     - ["^BLANK$", "-vo"]
     - ["$", "vo"]
   PASS:
+    - ["^BLANCA$", "-ns"]
+    - ["^BLANK$", "-yns"]
+    - ["([aeiouy])$", "$1ns"]
+    - ["$", "yns"]
+  PASSMID:
     - ["^BLANCA$", "-s"]
     - ["^BLANK$", "-ys"]
     - ["([aeiouy])$", "$1s"]
@@ -40,7 +45,7 @@ inflections:
   MID:
     - ["^BLANK$", "-n"]
     - ["s$", "ns"]
-    - ["([aeiouy])$", "n"]
+    - ["([aeiouy])$", "$1n"]
     - ["$", "en"]
   RESULT:
     - ["^BLANK$", "-geth"]
