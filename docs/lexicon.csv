@@ -62,7 +62,7 @@ duck,dweg
 calendar,*month#INST
 computer,*compute_1#INST
 from_1,of
-child,flenn
+child,flent
 furnishing,cafytya
 iron_0,onn
 even_0,adwi,even; just right; suitable; harmonious; balanced
@@ -110,3 +110,6 @@ sleep_0,losta
 bad_0,drog
 fill_1,len
 exist_0,*of_1#MID
+house,[*build_1+*home]
+home,trev
+build_1,car

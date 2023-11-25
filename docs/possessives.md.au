@@ -1,0 +1,163 @@
+# Lesson 2: Possessives
+
+<div class="exercise">
+
+## Exercise 1
+
+Convert each of the following possessive phrases to a sentence using __have_1__.
+
+Example: __duck#DEF 3SGPOSS__ &rarr; __3SG#CAP FIN have_1 duck.__
+
+---
+
+- __wish#DEF 1SGPOSS__ | __1SG FIN have_1 wish__
+- __wish#DEF 2SGPOSS__ | __2SG FIN have_1 wish__
+- __wish#DEF 3SGPOSS__ | __3SG FIN have_1 wish__
+- __wish#DEF 1PLPOSS__ | __1PL FIN have_1 wish__
+- __wish#DEF 2PLPOSS__ | __2PL FIN have_1 wish__
+- __wish#DEF 3PLPOSS__ | __3PL FIN have_1 wish__
+- __wish#DEF of_1#LEN ^Gandalf__ | __^Gandalf FIN have_1 wish__
+- __wish#DEF of_1#LEN ^Eowyn__ | __^Eowyn FIN have_1 wish__
+- __wish#DEF of_1#LEN ^Aragorn__ | __^Aragorn FIN have_1 wish__
+- __boat#DEF 1SGPOSS__ | __1SG FIN have_1 boat__
+- __boat#DEF 2SGPOSS__ | __2SG FIN have_1 boat__
+- __boat#DEF 3SGPOSS__ | __3SG FIN have_1 boat__
+- __boat#DEF 1PLPOSS__ | __1PL FIN have_1 boat__
+- __boat#DEF 2PLPOSS__ | __2PL FIN have_1 boat__
+- __boat#DEF 3PLPOSS__ | __3PL FIN have_1 boat__
+- __boat#DEF of_1#LEN ^Gandalf__ | __^Gandalf FIN have_1 boat__
+- __boat#DEF of_1#LEN ^Eowyn__ | __^Eowyn FIN have_1 boat__
+- __boat#DEF of_1#LEN ^Aragorn__ | __^Aragorn FIN have_1 boat__
+- __child#DEF 1SGPOSS__ | __1SG FIN have_1 child__
+- __child#DEF 2SGPOSS__ | __2SG FIN have_1 child__
+- __child#DEF 3SGPOSS__ | __3SG FIN have_1 child__
+- __child#DEF 1PLPOSS__ | __1PL FIN have_1 child__
+- __child#DEF 2PLPOSS__ | __2PL FIN have_1 child__
+- __child#DEF 3PLPOSS__ | __3PL FIN have_1 child__
+- __child#DEF of_1#LEN ^Arwen__ | __^Arwen FIN have_1 child__
+- __child#DEF of_1#LEN ^Eowyn__ | __^Eowyn FIN have_1 child__
+- __child#DEF of_1#LEN ^Aragorn__ | __^Aragorn FIN have_1 child__
+- __ring#DEF 1SGPOSS__ | __1SG FIN have_1 ring__
+- __ring#DEF 2SGPOSS__ | __2SG FIN have_1 ring__
+- __ring#DEF 3SGPOSS__ | __3SG FIN have_1 ring__
+- __ring#DEF 1PLPOSS__ | __1PL FIN have_1 ring__
+- __ring#DEF 2PLPOSS__ | __2PL FIN have_1 ring__
+- __ring#DEF 3PLPOSS__ | __3PL FIN have_1 ring__
+- __ring#DEF of_1#LEN ^Galadriel__ | __^Galadriel FIN have_1 ring__
+- __ring#DEF of_1#LEN ^Elrond__ | __^Elrond FIN have_1 ring__
+- __ring#DEF of_1#LEN ^Sauron__ | __^Sauron FIN have_1 ring__
+- __ring#DEF of_1#LEN ^Aragorn__ | __^Aragorn FIN have_1 ring__
+- __stone#DEF 1SGPOSS__ | __1SG FIN have_1 stone__
+- __stone#DEF 2SGPOSS__ | __2SG FIN have_1 stone__
+- __stone#DEF 3SGPOSS__ | __3SG FIN have_1 stone__
+- __stone#DEF 1PLPOSS__ | __1PL FIN have_1 stone__
+- __stone#DEF 2PLPOSS__ | __2PL FIN have_1 stone__
+- __stone#DEF 3PLPOSS__ | __3PL FIN have_1 stone__
+- __stone#DEF of_1#LEN ^Gandalf__ | __^Gandalf FIN have_1 stone__
+- __stone#DEF of_1#LEN ^Aragorn__ | __^Aragorn FIN have_1 stone__
+- __stone#DEF of_1#LEN ^Frodo__ | __^Frodo FIN have_1 stone__
+- __neighbor#DEF 1SGPOSS__ | __1SG FIN have_1 neighbor__
+- __neighbor#DEF 2SGPOSS__ | __2SG FIN have_1 neighbor__
+- __neighbor#DEF 3SGPOSS__ | __3SG FIN have_1 neighbor__
+- __neighbor#DEF 1PLPOSS__ | __1PL FIN have_1 neighbor__
+- __neighbor#DEF 2PLPOSS__ | __2PL FIN have_1 neighbor__
+- __neighbor#DEF 3PLPOSS__ | __3PL FIN have_1 neighbor__
+- __computer#DEF 1SGPOSS__ | __1SG FIN have_1 computer__
+- __computer#DEF 2SGPOSS__ | __2SG FIN have_1 computer__
+- __computer#DEF 3SGPOSS__ | __3SG FIN have_1 computer__
+- __computer#DEF 1PLPOSS__ | __1PL FIN have_1 computer__
+- __computer#DEF 2PLPOSS__ | __2PL FIN have_1 computer__
+- __computer#DEF 3PLPOSS__ | __3PL FIN have_1 computer__
+- __house#DEF 1SGPOSS__ | __1SG FIN have_1 house__
+- __house#DEF 2SGPOSS__ | __2SG FIN have_1 house__
+- __house#DEF 3SGPOSS__ | __3SG FIN have_1 house__
+- __house#DEF 1PLPOSS__ | __1PL FIN have_1 house__
+- __house#DEF 2PLPOSS__ | __2PL FIN have_1 house__
+- __house#DEF 3PLPOSS__ | __3PL FIN have_1 house__
+- __house#DEF of_1#LEN ^Galadriel__ | __^Galadriel FIN have_1 house__
+- __house#DEF of_1#LEN ^Elrond__ | __^Elrond FIN have_1 house__
+- __house#DEF of_1#LEN ^Theoden__ | __^Theoden FIN have_1 house__
+- __house#DEF of_1#LEN ^Frodo__ | __^Frodo FIN have_1 house__
+
+</div>
+
+<div class="exercise">
+
+## Exercise 2
+
+Convert each of the following sentences to a possessive phrase.
+
+Example: __2PL#CAP FIN have_1 duck.__ &rarr; __duck#DEF 2PLPOSS__
+
+---
+
+- __1SG FIN have_1 wish__ | __wish#DEF 1SGPOSS__
+- __2SG FIN have_1 wish__ | __wish#DEF 2SGPOSS__
+- __3SG FIN have_1 wish__ | __wish#DEF 3SGPOSS__
+- __1PL FIN have_1 wish__ | __wish#DEF 1PLPOSS__
+- __2PL FIN have_1 wish__ | __wish#DEF 2PLPOSS__
+- __3PL FIN have_1 wish__ | __wish#DEF 3PLPOSS__
+- __^Gandalf FIN have_1 wish__ |#DEF __wish of_1#LEN ^Gandalf__
+- __^Eowyn FIN have_1 wish__ | __wish#DEF of_1#LEN ^Eowyn__
+- __^Aragorn FIN have_1 wish__ | __wish#DEF of_1#LEN ^Aragorn__
+- __1SG FIN have_1 boat__ | __boat#DEF 1SGPOSS__
+- __2SG FIN have_1 boat__ | __boat#DEF 2SGPOSS__
+- __3SG FIN have_1 boat__ | __boat#DEF 3SGPOSS__
+- __1PL FIN have_1 boat__ | __boat#DEF 1PLPOSS__
+- __2PL FIN have_1 boat__ | __boat#DEF 2PLPOSS__
+- __3PL FIN have_1 boat__ | __boat#DEF 3PLPOSS__
+- __^Gandalf FIN have_1 boat__ | __boat#DEF of_1#LEN ^Gandalf__
+- __^Eowyn FIN have_1 boat__ | __boat#DEF of_1#LEN ^Eowyn__
+- __^Aragorn FIN have_1 boat__ | __boat#DEF of_1#LEN ^Aragorn__
+- __1SG FIN have_1 child__ | __child#DEF 1SGPOSS__
+- __2SG FIN have_1 child__ | __child#DEF 2SGPOSS__
+- __3SG FIN have_1 child__ | __child#DEF 3SGPOSS__
+- __1PL FIN have_1 child__ | __child#DEF 1PLPOSS__
+- __2PL FIN have_1 child__ | __child#DEF 2PLPOSS__
+- __3PL FIN have_1 child__ | __child#DEF 3PLPOSS__
+- __^Arwen FIN have_1 child__ | __child#DEF of_1#LEN ^Arwen__
+- __^Eowyn FIN have_1 child__ | __child#DEF of_1#LEN ^Eowyn__
+- __^Aragorn FIN have_1 child__ | __child#DEF of_1#LEN ^Aragorn__
+- __1SG FIN have_1 ring__ | __ring#DEF 1SGPOSS__
+- __2SG FIN have_1 ring__ | __ring#DEF 2SGPOSS__
+- __3SG FIN have_1 ring__ | __ring#DEF 3SGPOSS__
+- __1PL FIN have_1 ring__ | __ring#DEF 1PLPOSS__
+- __2PL FIN have_1 ring__ | __ring#DEF 2PLPOSS__
+- __3PL FIN have_1 ring__ | __ring#DEF 3PLPOSS__
+- __^Galadriel FIN have_1 ring__ | __ring#DEF of_1#LEN ^Galadriel__
+- __^Elrond FIN have_1 ring__ | __ring#DEF of_1#LEN ^Elrond__
+- __^Sauron FIN have_1 ring__ | __ring#DEF of_1#LEN ^Sauron__
+- __^Aragorn FIN have_1 ring__ | __ring#DEF of_1#LEN ^Aragorn__
+- __1SG FIN have_1 stone__ | __stone#DEF 1SGPOSS__
+- __2SG FIN have_1 stone__ | __stone#DEF 2SGPOSS__
+- __3SG FIN have_1 stone__ | __stone#DEF 3SGPOSS__
+- __1PL FIN have_1 stone__ | __stone#DEF 1PLPOSS__
+- __2PL FIN have_1 stone__ | __stone#DEF 2PLPOSS__
+- __3PL FIN have_1 stone__ | __stone#DEF 3PLPOSS__
+- __^Gandalf FIN have_1 stone__ | __stone#DEF of_1#LEN ^Gandalf__
+- __^Aragorn FIN have_1 stone__ | __stone#DEF of_1#LEN ^Aragorn__
+- __^Frodo FIN have_1 stone__ | __stone#DEF of_1#LEN ^Frodo__
+- __1SG FIN have_1 neighbor__ | __neighbor#DEF 1SGPOSS__
+- __2SG FIN have_1 neighbor__ | __neighbor#DEF 2SGPOSS__
+- __3SG FIN have_1 neighbor__ | __neighbor#DEF 3SGPOSS__
+- __1PL FIN have_1 neighbor__ | __neighbor#DEF 1PLPOSS__
+- __2PL FIN have_1 neighbor__ | __neighbor#DEF 2PLPOSS__
+- __3PL FIN have_1 neighbor__ | __neighbor#DEF 3PLPOSS__
+- __1SG FIN have_1 computer__ | __computer#DEF 1SGPOSS__
+- __2SG FIN have_1 computer__ | __computer#DEF 2SGPOSS__
+- __3SG FIN have_1 computer__ | __computer#DEF 3SGPOSS__
+- __1PL FIN have_1 computer__ | __computer#DEF 1PLPOSS__
+- __2PL FIN have_1 computer__ | __computer#DEF 2PLPOSS__
+- __3PL FIN have_1 computer__ | __computer#DEF 3PLPOSS__
+- __1SG FIN have_1 house__ | __house#DEF 1SGPOSS__
+- __2SG FIN have_1 house__ | __house#DEF 2SGPOSS__
+- __3SG FIN have_1 house__ | __house#DEF 3SGPOSS__
+- __1PL FIN have_1 house__ | __house#DEF 1PLPOSS__
+- __2PL FIN have_1 house__ | __house#DEF 2PLPOSS__
+- __3PL FIN have_1 house__ | __house#DEF 3PLPOSS__
+- __^Galadriel FIN have_1 house__ | __house#DEF of_1#LEN ^Galadriel__
+- __^Elrond FIN have_1 house__ | __house#DEF of_1#LEN ^Elrond__
+- __^Theoden FIN have_1 house__ | __house#DEF of_1#LEN ^Theoden__
+- __^Frodo FIN have_1 house__ | __house#DEF of_1#LEN ^Frodo__
+
+</div>

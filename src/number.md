@@ -31,7 +31,7 @@ a collective noun using a singular pronoun.
 
 Collective nouns are used when talking about groups of things whose individuality
 is not important, e.g. __<x-out>eleniod<x-src>star#COLL</x-src></x-out>__ "stars, as a group or phenomenon". They are also used when the number of things under discussion is
-unknown, e.g. __<x-out>flenniod<x-src>child#COLL</x-src></x-out>__ "child(ren)", __<x-out>cafytiod<x-src>furnishing#COLL</x-src></x-out>__ "furniture".
+unknown, e.g. __<x-out>flentiod<x-src>child#COLL</x-src></x-out>__ "child(ren)", __<x-out>cafytiod<x-src>furnishing#COLL</x-src></x-out>__ "furniture".
 The collective forms can be treated as mass nouns, e.g. __<x-out>theuliod<x-src>pebble#COLL</x-src></x-out>__ "gravel" from __<x-out>theul<x-src>pebble</x-src></x-out>__ "pebble".
 
 ## Mass Nouns

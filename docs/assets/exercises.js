@@ -22,7 +22,7 @@ function parseExercise(exerciseSpec) {
     .map(([stimulusHtml, correctAnswerHtml]) => {
       return {
         stimulusHtml,
-        correctAnswer: parseHtml(correctAnswerHtml.replace(/<x-src>[^<]*<\/x-src>/g, ""))[0].innerText
+        correctAnswer: parseHtml(correctAnswerHtml.replace(/<x-src>[^<]*<\/x-src>/g, "")).innerText
       }
     })
 
@@ -85,11 +85,15 @@ function initExerciseComponent(exercise, root) {
         h("ul", {},
           ...questions.map((question, questionIndex) =>
             h("li", {},
-              ...parseHtml(question.stimulusHtml),
+              parseHtml(question.stimulusHtml),
               h("div", {class: "answer"},
-                h("input", {value: guesses[questionIndex], oninput: setGuess(questionIndex)}),
+                h("input", {class: marks[questionIndex], value: guesses[questionIndex], oninput: setGuess(questionIndex)}),
                 h("span", {class: marks[questionIndex]}, marks[questionIndex]),
               ),
+              h("details", {style: "font-size: 12px; min-height: 3.5em"},
+                h("summary", {}, "Show answer"),
+                h("span", {}, question.correctAnswer),
+              )
             )
           ),
         ),
@@ -147,10 +151,10 @@ function trim(s) {
   return s.trim()
 }
 
-const htmlParserDummyNode = h("div", {})
 function parseHtml(html) {
-  htmlParserDummyNode.innerHTML = html
-  return htmlParserDummyNode.childNodes
+  const node = h("div", {})
+  node.innerHTML = html
+  return node
 }
 
 main()

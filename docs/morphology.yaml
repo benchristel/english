@@ -10,7 +10,7 @@ inflections:
     - ["^([td]h)", "yn $1"]
     - ["^p", "ym b"]
     - ["^t", "yn d"]
-    - ["^k", "yn g"]
+    - ["^[ck]", "yn g"]
     - ["^d", "yn dh"]
     - ["^[mb]", "ym m"]
     - ["^g", "yn '"]
@@ -19,7 +19,7 @@ inflections:
   PL:
     - ["^BLANK$", "-ow"]
     - ["o$", "aow"]
-    - ["[aeiouy]$", "ow"]
+    - ["u$", "ow"]
     - ["([aeiouy])([ptkdbgnms])$", "$1$2$2ow"]
     - ["$", "ow"]
   

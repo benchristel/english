@@ -24,7 +24,7 @@
 
 <div class="exercise">
 
-## Exercise 1
+## Exercise 1: __greeting#PL#CAP and good_0#INF#PL__
 
 What would you say in each of these situations?
 
@@ -49,12 +49,44 @@ What would you say in each of these situations?
 
 <div class="exercise">
 
-## Exercise 2
+## Exercise 2: __good_0#CAP very_0#LEN, FIN thank_1 2SG!__
 
-Fill in the blank:
+Your friend asks you, __"how_condition#CAP FIN exist_0?"__
+Translate these possible responses to English:
 
 ---
 
-- __"Q#CAP FIN good_0?" "good_0#CAP very_0#LEN, FILLME, and 2SG?"__ | __FIN thank_1 2SG__
+- well | __good_0__
+- very well | __good_0 very_0#LEN__
+- well enough | __good_0 suffice_0#LEN__
+- not well | __good_0#NEG__
+- bad | __bad_0__
+- very bad | __bad_0 very_0#LEN__
+- perfect | __exact_0__
+- excellent | __excellent_0__
+- well, thank you | __good_0, FIN thank_1 2SG__
+- very well, thank you | __good_0 very_0#LEN, FIN thank_1 2SG__
+- well enough, thank you | __good_0 suffice_0#LEN, FIN thank_1 2SG__
+- perfect, and you? | __exact_0, and 2SG__
+- excellent, and you? | __excellent_0, and 2SG__
+
+</div>
+
+<div class="exercise">
+
+## Exercise 3
+
+Translate to English:
+
+---
+
+- Greetings! | __greeting#PL__
+- Are you well? | __Q FIN good_0?__
+- How are you? | __how_condition FIN exist_0__
+- Be well. | __dwell_0#INF good_0#LEN__
+- Farewell! | __good_0#INF__
+- Bye! | __pleasant_0__
+- Hi! | __pleasant_0__
+- Fair travels. | __travel_0#INF exist_0#LEN__
 
 </div>

@@ -1,13 +1,14 @@
+pleasantries.html
 phonology.html
+pronouns.html
+possessives.html
 mutation.html
 articles.html
 number.html
 adjectives.html
-pronouns.html
 appositives.html
 questions.html
 lexicon.html
 
 !unspecified
-pleasantries.html
 verbs.html
