@@ -7,14 +7,14 @@ PRES,ys
 PAST,o
 FIN,a
 FUT,vrow
-1SG,ni
-1PL,vi
+1SG,vi
+1PL,ni
 2SG,yth
 2PL,le
 3SG,ev
 3PL,dho
-1SGPOSS,nin
-1PLPOSS,vin
+1SGPOSS,vin
+1PLPOSS,nin
 2SGPOSS,dwyn
 2PLPOSS,lin
 3SGPOSS,emm
@@ -113,3 +113,6 @@ exist_0,*of_1#MID
 house,[*build_1+*home]
 home,trev
 build_1,car
+thing,*one
+here_0,ma
+for_1,dra

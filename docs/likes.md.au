@@ -1,0 +1,18 @@
+# Lesson 3: Likes and Dislikes
+
+To say "I like this", __LANGNAME__ uses a paraphrase: __FIN#CAP good_0 one#DEF here_0 for_1 1SG#LEN__. The pattern for "PERSON likes THING" is __FIN#CAP good_0 ^THING for_1 ^PERSON__. The PERSON is [mutated](mutation.html).
+
+<div class="exercise">
+
+Say who likes each thing. Examples:
+
+- __^Gandalf / travel_0#GER__ <br> &rarr; __FIN#CAP good_0 travel_0#GER for_1 ^Gandalf#LEN__
+- __^Gimli / stone#DEF__ <br> &rarr; __FIN#CAP good_0 stone#DEF for_1 ^Gimli#LEN__
+
+---
+
+- __^Galadriel / morning#DEF__ | __FIN#CAP good_0 morning#DEF for_1 ^Galadriel#LEN__
+- __^Bilbo / walk_0#GER__ | __FIN#CAP good_0 walk_0#GER for_1 ^Bilbo#LEN__
+- __^Bilbo / furnishing#DEF__ | __FIN#CAP good_0 furnishing#DEF for_1 ^Bilbo#LEN__
+
+</div>

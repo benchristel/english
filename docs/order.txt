@@ -11,4 +11,5 @@ questions.html
 lexicon.html
 
 !unspecified
+likes.html
 verbs.html

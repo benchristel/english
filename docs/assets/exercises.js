@@ -17,7 +17,7 @@ function parseExercise(exerciseSpec) {
     promptElements.push(el)
   }
 
-  const questions = $("li", exerciseSpec)
+  const questions = $("hr ~ * li", exerciseSpec)
     .map(li => li.innerHTML.split("|").map(trim))
     .map(([stimulusHtml, correctAnswerHtml]) => {
       return {
