@@ -38,7 +38,7 @@ inflections:
     - ["([aeiouy])$", "$1ns"]
     - ["$", "yns"]
   PASSMID:
-    - ["^BLANCA$", "-s"]
+    - ["^BLANCA$", "-ns"]
     - ["^BLANK$", "-ys"]
     - ["([aeiouy])$", "$1s"]
     - ["$", "ys"]

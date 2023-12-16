@@ -11,10 +11,10 @@ function main() {
 function parseExercise(exerciseSpec) {
   const promptElements = []
   for (let el of exerciseSpec.children) {
+    promptElements.push(el)
     if (el.tagName === "HR") {
       break
     }
-    promptElements.push(el)
   }
 
   const questions = $("hr ~ * li", exerciseSpec)
@@ -45,7 +45,7 @@ function shuffle(array) {
 }
 
 function randIntInRange(min, max) {
-  return Math.floor(Math.random() * (max - min)) + min
+  return Math.floor(Math.random() * (max - min + 1)) + min
 }
 
 function initExerciseComponent(exercise, root) {

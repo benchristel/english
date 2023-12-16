@@ -7,18 +7,18 @@ PRES,ys
 PAST,o
 FIN,a
 FUT,vrow
-1SG,vi
+1SG,mi
 1PL,ni
 2SG,yth
 2PL,le
 3SG,ev
 3PL,dho
-1SGPOSS,vin
+1SGPOSS,min
 1PLPOSS,nin
-2SGPOSS,dwyn
+2SGPOSS,twyn
 2PLPOSS,lin
 3SGPOSS,emm
-3PLPOSS,dhyn
+3PLPOSS,dyn
 TRACE,owl
 obey_1,himya
 ache_0,gwalya
@@ -61,7 +61,7 @@ chili,spanta
 duck,dweg
 calendar,*month#INST
 computer,*compute_1#INST
-from_1,of
+from_1,hov
 child,flent
 furnishing,cafytya
 iron_0,onn
@@ -70,12 +70,12 @@ time,gall
 evening,[*even_0+*time#COMPOUND_LEN]
 watch_1,mir
 walk_0,bada
-with_1,go,comitative with; and
+with_1,co,comitative with; and
 meet_0,[co+*walk_0#LEN]
 of_1,ga
 who,pyw
 what,pyth
-where,[*what+*place]
+where,pellae
 place,lae
 how_condition,pedel,interrogative pro-verb
 tale,hwedhel
@@ -116,3 +116,8 @@ build_1,car
 thing,*one
 here_0,ma
 for_1,dra
+new_0,nowydh
+shire,sir
+be_named_1,henn,hight
+person,ten
+name,henu

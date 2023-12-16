@@ -1,0 +1,71 @@
+# Lesson X: Introductions
+
+<div class="exercise">
+
+## Exercise 1: __what#CAP FIN be_named_1 2SG?__
+
+Write the question/answer pair based on the prompt.
+
+Examples:
+
+- __2SG__ / __^Miriel__<br>&rarr; __what#CAP FIN be_named_1 2SG? 1SG#CAP FIN be_named_1 ^Miriel.__
+- __person#DEF there_0#LEN__ / __^Boromir__<br>&rarr; __what#CAP FIN be_named_1 person#DEF there_0#LEN? person#DEF#CAP there_0#LEN FIN be_named_1 ^Boromir.__
+
+---
+
+- __2PL__ / __^Cat with_1#LEN ^Gwilam__ | __what#CAP FIN be_named_1 2PL? 1PL#CAP FIN be_named_1 ^Cat with_1#LEN ^Gwilam.__
+- __3PL__ / __^Cat with_1#LEN ^Gwilam__ | __what#CAP FIN be_named_1 3PL? 3PL#CAP FIN be_named_1 ^Cat with_1#LEN ^Gwilam.__
+- __person#PL#DEF there_0#LEN__ / __^Cat with_1#LEN ^Gwilam__ | __what#CAP FIN be_named_1 person#PL#DEF there_0#LEN? person#PL#DEF#CAP there_0#LEN FIN be_named_1 ^Cat with_1#LEN ^Gwilam.__
+- __2PL__ / __^Merry with_1#LEN ^Pippin__ | __what#CAP FIN be_named_1 2PL? 1PL#CAP FIN be_named_1 ^Merry with_1#LEN ^Pippin.__
+- __3PL__ / __^Merry with_1#LEN ^Pippin__ | __what#CAP FIN be_named_1 3PL? 1PL#CAP FIN be_named_1 ^Merry with_1#LEN ^Pippin.__
+- __person#PL#DEF there_0#LEN__ / __^Merry with_1#LEN ^Pippin__ | __what#CAP FIN be_named_1 person#PL#DEF there_0#LEN? person#PL#DEF#CAP there_0#LEN FIN be_named_1 ^Merry with_1#LEN ^Pippin.__
+- __2SG__ / __^Duck__ | __what#CAP FIN be_named_1 2SG? 1SG#CAP FIN be_named_1 ^Duck.__
+- __3SG__ / __^Duck__ | __what#CAP FIN be_named_1 3SG? 3SG#CAP FIN be_named_1 ^Duck.__
+- __person#DEF there_0#LEN__ / __^Duck__ | __what#CAP FIN be_named_1 person#DEF there_0#LEN? person#DEF#CAP there_0#LEN FIN be_named_1 ^Duck.__
+- __2SG__ / __^Frodo__ | __what#CAP FIN be_named_1 2SG? 1SG#CAP FIN be_named_1 ^Frodo.__
+- __3SG__ / __^Frodo__ | __what#CAP FIN be_named_1 3SG? 3SG#CAP FIN be_named_1 ^Frodo.__
+- __person#DEF there_0#LEN__ / __^Frodo__ | __what#CAP FIN be_named_1 person#DEF there_0#LEN? person#DEF#CAP there_0#LEN FIN be_named_1 ^Frodo.__
+- __2SG__ / __^Maya__ | __what#CAP FIN be_named_1 2SG? 1SG#CAP FIN be_named_1 ^Maya.__
+- __2SG__ / __^Aragorn__ | __what#CAP FIN be_named_1 2SG? 1SG#CAP FIN be_named_1 ^Aragorn.__
+- __2SG__ / __^Arwen__ | __what#CAP FIN be_named_1 2SG? 1SG#CAP FIN be_named_1 ^Arwen.__
+
+
+</div>
+
+
+<div class="exercise">
+
+## Exercise 2: __where#CAP FIN from_1 2SG?__
+
+Write the question/answer pair based on the prompt.
+
+Examples:
+
+- __2SG__ / __^York new_0#LEN#CAP__<br>&rarr; __where#CAP FIN from_1 2SG? 1SG#CAP FIN from_1 ^York new_0#LEN#CAP.__
+- __^Boromir__ / __^Gondor__<br>&rarr; __where#CAP FIN from_1 ^Boromir? ^Boromir#CAP FIN from_1 ^Gondor__
+
+---
+
+- __3PL__ / __^Paris__ | __where#CAP FIN from_1 3PL? 3PL#CAP FIN from_1 ^Paris.__
+- __2SG__ / __^Paris__ | __where#CAP FIN from_1 2SG? 1SG#CAP FIN from_1 ^Paris.__
+- __3SG__ / __^Paris__ | __where#CAP FIN from_1 3SG? 3SG#CAP FIN from_1 ^Paris.__
+- __2PL__ / __^Paris__ | __where#CAP FIN from_1 2PL? 1PL#CAP FIN from_1 ^Paris.__
+- __3PL__ / __^Roma__ | __where#CAP FIN from_1 3PL? 3PL#CAP FIN from_1 ^Roma.__
+- __2SG__ / __^Roma__ | __where#CAP FIN from_1 2SG? 1SG#CAP FIN from_1 ^Roma.__
+- __3SG__ / __^Roma__ | __where#CAP FIN from_1 3SG? 3SG#CAP FIN from_1 ^Roma.__
+- __2PL__ / __^Roma__ | __where#CAP FIN from_1 2PL? 1PL#CAP FIN from_1 ^Roma.__
+- __3PL__ / __^York new_0#LEN#CAP__ | __where#CAP FIN from_1 3PL? 3PL#CAP FIN from_1 ^York new_0#LEN#CAP.__
+- __2SG__ / __^York new_0#LEN#CAP__ | __where#CAP FIN from_1 2SG? 1SG#CAP FIN from_1 ^York new_0#LEN#CAP.__
+- __3SG__ / __^York new_0#LEN#CAP__ | __where#CAP FIN from_1 3SG? 3SG#CAP FIN from_1 ^York new_0#LEN#CAP.__
+- __2PL__ / __^York new_0#LEN#CAP__ | __where#CAP FIN from_1 2PL? 1PL#CAP FIN from_1 ^York new_0#LEN#CAP.__
+- __3PL__ / __^San ^Francisco__ | __where#CAP FIN from_1 3PL? 3PL#CAP FIN from_1 ^San ^Francisco.__
+- __2SG__ / __^San ^Francisco__ | __where#CAP FIN from_1 2SG? 1SG#CAP FIN from_1 ^San ^Francisco.__
+- __3SG__ / __^San ^Francisco__ | __where#CAP FIN from_1 3SG? 3SG#CAP FIN from_1 ^San ^Francisco.__
+- __2PL__ / __^San ^Francisco__ | __where#CAP FIN from_1 2PL? 1PL#CAP FIN from_1 ^San ^Francisco.__
+- __^Galadriel__ / __^Lorien__ | __where#CAP FIN from_1 ^Galadriel? ^Galadriel#CAP FIN from_1 ^Lorien__
+- __^Arwen__ / __^Imladris__ | __where#CAP FIN from_1 ^Arwen? ^Arwen#CAP FIN from_1 ^Imladris__
+- __^Boromir__ / __^Minas ^Tirith__ | __where#CAP FIN from_1 ^Boromir? ^Boromir#CAP FIN from_1 ^Minas ^Tirith__
+- __^Faramir__ / __^Minas ^Tirith__ | __where#CAP FIN from_1 ^Faramir? ^Boromir#CAP FIN from_1 ^Minas ^Tirith__
+- __^Bilbo__ / __shire#CAP#DEF#CAP__ | __where#CAP FIN from_1 ^Bilbo? ^Bilbo#CAP FIN from_1 shire#CAP#DEF#CAP__
+
+</div>
