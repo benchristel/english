@@ -8,19 +8,19 @@ __<x-out>Yth<x-src>2SG#CAP</x-src></x-out> <x-out>a<x-src>FIN</x-src></x-out> <x
 
 ## Content Questions
 
-Content questions start with an _interrogative pronoun_, like __<x-out>pyth<x-src>what</x-src></x-out>__ "what", __<x-out>pyw<x-src>who</x-src></x-out>__ "who", or __<x-out>pellae<x-src>where</x-src></x-out>__ "where".
+Content questions start with an _interrogative pronoun_, like __<x-out>pyth<x-src>what</x-src></x-out>__ "what", __<x-out>pyw<x-src>who</x-src></x-out>__ "who", or __<x-out>pell<x-src>where</x-src></x-out>__ "where".
 
 The interrogative pronoun is usually fronted:
 
 __<x-out>Pyw<x-src>who#CAP</x-src></x-out> <x-out>o<x-src>PAST</x-src></x-out> <x-out>gansvo<x-src>give_2</x-src></x-out> <x-out>yth<x-src>2SG</x-src></x-out> <x-out>ym marth<x-src>ring#DEF</x-src></x-out> <x-out>na<x-src>there_0</x-src></x-out>?__ "Who gave you that ring?"
 
-A resumptive pronoun __<x-out>owl<x-src>TRACE</x-src></x-out>__ can optionally be left in the interrogative pronoun's place:
+A resumptive pronoun __<x-out>al<x-src>TRACE</x-src></x-out>__ can optionally be left in the interrogative pronoun's place:
 
-__<x-out>Pyw<x-src>who#CAP</x-src></x-out> <x-out>yth<x-src>2SG</x-src></x-out> <x-out>o<x-src>PAST</x-src></x-out> <x-out>gansvo<x-src>give_2</x-src></x-out> <x-out>owl<x-src>TRACE</x-src></x-out> <x-out>ym marth<x-src>ring#DEF</x-src></x-out> <x-out>na<x-src>there_0</x-src></x-out>?__ "Who did you give that ring to?"
+__<x-out>Pyw<x-src>who#CAP</x-src></x-out> <x-out>yth<x-src>2SG</x-src></x-out> <x-out>o<x-src>PAST</x-src></x-out> <x-out>gansvo<x-src>give_2</x-src></x-out> <x-out>al<x-src>TRACE</x-src></x-out> <x-out>ym marth<x-src>ring#DEF</x-src></x-out> <x-out>na<x-src>there_0</x-src></x-out>?__ "Who did you give that ring to?"
 
 If there are multiple interrogative pronouns, only the first is fronted:
 
-__<x-out>Pyw<x-src>who#CAP</x-src></x-out> <x-out>yth<x-src>2SG</x-src></x-out> <x-out>o<x-src>PAST</x-src></x-out> <x-out>gansvo<x-src>give_2</x-src></x-out> <x-out>owl<x-src>TRACE</x-src></x-out> <x-out>pyth<x-src>what</x-src></x-out>?__ "Who did you give what to?"
+__<x-out>Pyw<x-src>who#CAP</x-src></x-out> <x-out>yth<x-src>2SG</x-src></x-out> <x-out>o<x-src>PAST</x-src></x-out> <x-out>gansvo<x-src>give_2</x-src></x-out> <x-out>al<x-src>TRACE</x-src></x-out> <x-out>pyth<x-src>what</x-src></x-out>?__ "Who did you give what to?"
 
 Alternatively, the interrogative pronoun(s) can be left in place:
 

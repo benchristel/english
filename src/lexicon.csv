@@ -19,7 +19,7 @@ FUT,vrow
 2PLPOSS,lin
 3SGPOSS,emm
 3PLPOSS,dyn
-TRACE,owl
+TRACE,al
 obey_1,himya
 ache_0,gwalya
 act_0,*do_1#MID
@@ -54,6 +54,8 @@ through_1,ter
 about_1,bo,about; concerning
 there_0,na
 one,re
+in_1,ber,within
+inside_0,*in_1#MID,within
 tall_0,hir
 mountain,orod
 spicy_0,gwintas,spicy; hot
@@ -75,7 +77,7 @@ meet_0,[co+*walk_0#LEN]
 of_1,ga
 who,pyw
 what,pyth
-where,pellae
+where,pell
 place,lae
 how_condition,pedel,interrogative pro-verb
 tale,hwedhel
