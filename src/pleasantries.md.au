@@ -1,5 +1,15 @@
 # Lesson 1: Pleasantries
 
+__greeting#PL#CAP and welcome!__ Greetings and welcome to this __LANGNAME__ course. In this first lesson, we'll learn various ways to say hello and goodbye, and you will get acquainted with the structure of the lessons and how this course will work.
+
+You can hover your mouse over any __LANGNAME__ word to see a coded "translation" of it. Although these translations are often somewhat obscure, you can use them to get some idea
+of what an unfamiliar word means, or remind yourself of the meaning of a word you have learned previously.
+
+Once you have learned the words, try to translate as little as possible. You should learn to "think in __LANGNAME__". To that end, the exercises provided with each lesson focus on
+using the language and recognizing patterns, rather than simply translating. You should practice the exercises in each lesson every few days until you can get the right answer effortlessly.
+
+## Vocabulary
+
 - __greeting#PL!__ "Greetings!"
 - __morning pleasant_0#LEN__ "Good morning."
 - __day pleasant_0#LEN__ "Good day."
@@ -22,9 +32,11 @@
 - __dwell_0#INF good_0#LEN__ "Be well."
 - __sleep_0#INF pleasant_0#LEN__ "Good night."
 
+## Exercises
+
 <div class="exercise">
 
-## Exercise 1: __greeting#PL#CAP and good_0#INF#PL__
+### Exercise 1: __greeting#PL#CAP and good_0#INF#PL__
 
 What would you say in each of these situations?
 
@@ -49,7 +61,7 @@ What would you say in each of these situations?
 
 <div class="exercise">
 
-## Exercise 2: __good_0#CAP very_0#LEN, FIN thank_1 2SG!__
+### Exercise 2: __good_0#CAP very_0#LEN, FIN thank_1 2SG!__
 
 Your friend asks you, __"how_condition#CAP FIN exist_0?"__
 Translate these possible responses to English:
@@ -74,7 +86,7 @@ Translate these possible responses to English:
 
 <div class="exercise">
 
-## Exercise 3
+### Exercise 3
 
 Translate to English:
 
@@ -87,6 +99,6 @@ Translate to English:
 - Farewell! | __good_0#INF__
 - Bye! | __pleasant_0__
 - Hi! | __pleasant_0__
-- Fair travels. | __travel_0#INF exist_0#LEN__
+- Fair travels. | __travel_0#INF exact_0#LEN__
 
 </div>
