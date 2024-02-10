@@ -1,18 +1,52 @@
 # Articles
 
-The definite article (word for _the_) is __BLANK#DEF__. It comes before the noun, and causes the noun to mutate.
+The definite article (word for _the_) in __LANGNAME__ is __BLANK#DEF__, or **ym** before **p**, **b**, or **m**. It comes before the noun.
 
-- __tree#DEF__ "the tree" &larr; __tree__ "tree"
-- __boat#DEF__ "the boat"
-- __people#DEF__ "the people" &larr; __people__ "people"
-- __star#DEF__ "the star"
-- __ghost#DEF__ "the ghost" &larr; __ghost__ "ghost"
+The definite article causes the word after it to undergo mutation. Mutation is a grammatical concept unique to
+__LANGNAME__, but don't worry—all it means is that the initial sound of the word changes.
 
-When the first letter of the noun is __^m__ or __^b__, the definite article becomes __^ym__. The initial __^m__ of the noun does _not_ mutate in this case—this is an exception to the mutation rule described earlier.
+The changes are as follows:
 
-- __curse#DEF__ "the curse"
+- **p** changes to **b**: __head__ "head" &rarr; __head#DEF__ "the head"
+- **t** changes to **d**: __turn_1#GER__ "turn" &rarr; __turn_1#GER#DEF__ "the turn"
+- **c** and **k** change to **g**: __house__ "house" &rarr; __house#DEF__ "the house"
+- **b** changes to **m**: __ring__ "ring" &rarr; __ring#DEF__ "the ring"
+- **d** changes to **dh**: __night__ "night" &rarr; __night#DEF__ "the night"
+- **g** disappears and is represented by an apostrophe in writing: __tree__ "tree" &rarr; __tree#DEF__ "the tree"
+
+If the initial sound of the word is anything else, it doesn't change:
+
+- __curse__ "curse" &rarr; __curse#DEF__ "the curse"
 
 There is no indefinite article corresponding to _a/an_ in __LANGNAME__.
 
 - __tree__ "tree" or "a tree"
 - __boat__ "boat" or "a boat"
+
+<div class="exercise">
+
+## Exercise 1: __thing#PL#DEF#CAP of_1#LEN house#DEF__
+
+Add the definite article to the names of these items you might find around the house:
+
+Examples:
+
+- __ghost__ "ghost" <br>&rarr; __ghost#DEF__
+- __furnishing__ "piece of furniture" <br>&rarr; __furnishing#DEF__
+
+---
+
+- __ghost__ "ghost" | __ghost#DEF__
+- __furnishing__ "piece of furniture" | __furnishing#DEF__
+- __fork__ "fork" | __fork#DEF__
+- __knife__ "knife" | __knife#DEF__
+- __spoon__ "spoon" | __spoon#DEF__
+- __chair__ "chair" | __chair#DEF__
+- __table__ "table" | __table#DEF__
+- __door__ "door" | __door#DEF__
+- __pen__ "pen" | __pen#DEF__
+- __pencil__ "pencil" | __pencil#DEF__
+- __hammer__ "hammer" | __hammer#DEF__
+- __computer__ "computer" | __computer#DEF__
+
+</div>

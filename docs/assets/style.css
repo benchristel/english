@@ -262,3 +262,11 @@ x-out:hover x-src {
   color: #000;
   text-shadow: 0 1px #fff;
 }
+
+#test-results {
+  display: none;
+  padding: 8px;
+  background: #410;
+  white-space: pre;
+  font-family: monospace;
+}

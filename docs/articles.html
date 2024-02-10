@@ -4,8 +4,12 @@
     <title>Articles - English Grammar</title>
     <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="assets/exercises.css">
+    <script type="text/javascript" src="assets/taste.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/preact@10.19.3/dist/preact.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/preact@10.19.3/hooks/dist/hooks.umd.js"></script>
   </head>
   <body>
+    <div id="test-results"></div>
     <div class="page">
       <header>
         <nav>
@@ -23,7 +27,7 @@
           <a class="home-link" href="index.html" title="home">
             <img alt="The coat of arms of Englalond" src="assets/arms.png">
           </a>
-          <ul><li><a href="pleasantries.html">Lesson 1: Pleasantries</a></li><li><a href="phonology.html">Pronunciation</a></li><li><a href="pronouns.html">Pronouns</a></li><li><a href="introductions.html">Lesson X: Introductions</a></li><li><a href="possessives.html">Lesson 2: Possessives</a></li><li><a href="mutation.html">Mutation</a></li><li class="mdsite-current-file"><a href="articles.html">Articles</a></li><li><a href="number.html">Number</a></li><li><a href="adjectives.html">Adjectives</a></li><li><a href="appositives.html">Appositives</a></li><li><a href="questions.html">Questions</a></li><li><a href="lexicon.html">Lexicon</a></li><li><a href="likes.html">Lesson 3: Likes and Dislikes</a></li><li><a href="verbs.html">Verb Forms</a></li></ul>
+          <ul><li><a href="pleasantries.html">Lesson 1: Pleasantries</a></li><li><a href="phonology.html">Pronunciation</a></li><li><a href="pronouns.html">Pronouns</a></li><li><a href="introductions.html">Lesson X: Introductions</a></li><li><a href="possessives.html">Lesson 2: Possessives</a></li><li><a href="mutation.html">Mutation</a></li><li class="mdsite-current-file"><a href="articles.html">Articles</a></li><li><a href="number.html">Number</a></li><li><a href="adjectives.html">Adjectives</a></li><li><a href="appositives.html">Appositives</a></li><li><a href="questions.html">Questions</a></li><li><a href="lexicon.html">Lexicon</a></li><li><a href="likes.html">Lesson 3: Likes and Dislikes</a></li><li><a href="descriptions.html">Lesson X: Descriptions</a></li><li><a href="verbs.html">Verb Forms</a></li></ul>
         </nav>
         <article>
           <div class="prev-and-next-links">
@@ -31,23 +35,52 @@
           </div>
           <hr/>
           <h1 id="articles">Articles</h1>
-<p>The definite article (word for <em>the</em>) is <strong><x-out>yn<x-src>BLANK#DEF</x-src></x-out></strong>. It comes before the noun, and causes the noun to mutate.</p>
+<p>The definite article (word for <em>the</em>) in <strong><x-out>English<x-src>LANGNAME</x-src></x-out></strong> is <strong><x-out>yn<x-src>BLANK#DEF</x-src></x-out></strong>, or <strong>ym</strong> before <strong>p</strong>, <strong>b</strong>, or <strong>m</strong>. It comes before the noun.</p>
+<p>The definite article causes the word after it to undergo mutation. Mutation is a grammatical concept unique to
+<strong><x-out>English<x-src>LANGNAME</x-src></x-out></strong>, but don&#39;t worry—all it means is that the initial sound of the word changes.</p>
+<p>The changes are as follows:</p>
 <ul>
-<li><strong><x-out>yn &#39;wydh<x-src>tree#DEF</x-src></x-out></strong> &quot;the tree&quot; &larr; <strong><x-out>gwydh<x-src>tree</x-src></x-out></strong> &quot;tree&quot;</li>
-<li><strong><x-out>yn skath<x-src>boat#DEF</x-src></x-out></strong> &quot;the boat&quot;</li>
-<li><strong><x-out>yn &#39;waith<x-src>people#DEF</x-src></x-out></strong> &quot;the people&quot; &larr; <strong><x-out>gwaith<x-src>people</x-src></x-out></strong> &quot;people&quot;</li>
-<li><strong><x-out>yn elen<x-src>star#DEF</x-src></x-out></strong> &quot;the star&quot;</li>
-<li><strong><x-out>yn darosvan<x-src>ghost#DEF</x-src></x-out></strong> &quot;the ghost&quot; &larr; <strong><x-out>tarosvan<x-src>ghost</x-src></x-out></strong> &quot;ghost&quot;</li>
+<li><strong>p</strong> changes to <strong>b</strong>: <strong><x-out>pen<x-src>head</x-src></x-out></strong> &quot;head&quot; &rarr; <strong><x-out>ym ben<x-src>head#DEF</x-src></x-out></strong> &quot;the head&quot;</li>
+<li><strong>t</strong> changes to <strong>d</strong>: <strong><x-out>troiod<x-src>turn_1#GER</x-src></x-out></strong> &quot;turn&quot; &rarr; <strong><x-out>yn droiod<x-src>turn_1#GER#DEF</x-src></x-out></strong> &quot;the turn&quot;</li>
+<li><strong>c</strong> and <strong>k</strong> change to <strong>g</strong>: <strong><x-out>cartrev<x-src>house</x-src></x-out></strong> &quot;house&quot; &rarr; <strong><x-out>yn gartrev<x-src>house#DEF</x-src></x-out></strong> &quot;the house&quot;</li>
+<li><strong>b</strong> changes to <strong>m</strong>: <strong><x-out>barth<x-src>ring</x-src></x-out></strong> &quot;ring&quot; &rarr; <strong><x-out>ym marth<x-src>ring#DEF</x-src></x-out></strong> &quot;the ring&quot;</li>
+<li><strong>d</strong> changes to <strong>dh</strong>: <strong><x-out>du<x-src>night</x-src></x-out></strong> &quot;night&quot; &rarr; <strong><x-out>yn dhu<x-src>night#DEF</x-src></x-out></strong> &quot;the night&quot;</li>
+<li><strong>g</strong> disappears and is represented by an apostrophe in writing: <strong><x-out>gwydh<x-src>tree</x-src></x-out></strong> &quot;tree&quot; &rarr; <strong><x-out>yn &#39;wydh<x-src>tree#DEF</x-src></x-out></strong> &quot;the tree&quot;</li>
 </ul>
-<p>When the first letter of the noun is <strong><x-out>m<x-src>^m</x-src></x-out></strong> or <strong><x-out>b<x-src>^b</x-src></x-out></strong>, the definite article becomes <strong><x-out>ym<x-src>^ym</x-src></x-out></strong>. The initial <strong><x-out>m<x-src>^m</x-src></x-out></strong> of the noun does <em>not</em> mutate in this case—this is an exception to the mutation rule described earlier.</p>
+<p>If the initial sound of the word is anything else, it doesn&#39;t change:</p>
 <ul>
-<li><strong><x-out>ym mollgeth<x-src>curse#DEF</x-src></x-out></strong> &quot;the curse&quot;</li>
+<li><strong><x-out>mollgeth<x-src>curse</x-src></x-out></strong> &quot;curse&quot; &rarr; <strong><x-out>ym mollgeth<x-src>curse#DEF</x-src></x-out></strong> &quot;the curse&quot;</li>
 </ul>
 <p>There is no indefinite article corresponding to <em>a/an</em> in <strong><x-out>English<x-src>LANGNAME</x-src></x-out></strong>.</p>
 <ul>
 <li><strong><x-out>gwydh<x-src>tree</x-src></x-out></strong> &quot;tree&quot; or &quot;a tree&quot;</li>
 <li><strong><x-out>skath<x-src>boat</x-src></x-out></strong> &quot;boat&quot; or &quot;a boat&quot;</li>
 </ul>
+<div class="exercise">
+
+<h2 id="exercise-1-yn-daclowthingpldefcap-aof_1len-yn-gartrevhousedef">Exercise 1: <strong><x-out>Yn daclow<x-src>thing#PL#DEF#CAP</x-src></x-out> <x-out>&#39;a<x-src>of_1#LEN</x-src></x-out> <x-out>yn gartrev<x-src>house#DEF</x-src></x-out></strong></h2>
+<p>Add the definite article to the names of these items you might find around the house:</p>
+<p>Examples:</p>
+<ul>
+<li><strong><x-out>tarosvan<x-src>ghost</x-src></x-out></strong> &quot;ghost&quot; <br>&rarr; <strong><x-out>yn darosvan<x-src>ghost#DEF</x-src></x-out></strong></li>
+<li><strong><x-out>cafytya<x-src>furnishing</x-src></x-out></strong> &quot;piece of furniture&quot; <br>&rarr; <strong><x-out>yn gafytya<x-src>furnishing#DEF</x-src></x-out></strong></li>
+</ul>
+<hr>
+<ul>
+<li><strong><x-out>tarosvan<x-src>ghost</x-src></x-out></strong> &quot;ghost&quot; | <strong><x-out>yn darosvan<x-src>ghost#DEF</x-src></x-out></strong></li>
+<li><strong><x-out>cafytya<x-src>furnishing</x-src></x-out></strong> &quot;piece of furniture&quot; | <strong><x-out>yn gafytya<x-src>furnishing#DEF</x-src></x-out></strong></li>
+<li><strong><x-out>gowl<x-src>fork</x-src></x-out></strong> &quot;fork&quot; | <strong><x-out>yn &#39;owl<x-src>fork#DEF</x-src></x-out></strong></li>
+<li><strong><x-out>kollell<x-src>knife</x-src></x-out></strong> &quot;knife&quot; | <strong><x-out>yn gollell<x-src>knife#DEF</x-src></x-out></strong></li>
+<li><strong><x-out>lauth<x-src>spoon</x-src></x-out></strong> &quot;spoon&quot; | <strong><x-out>yn lauth<x-src>spoon#DEF</x-src></x-out></strong></li>
+<li><strong><x-out>cadeyr<x-src>chair</x-src></x-out></strong> &quot;chair&quot; | <strong><x-out>yn gadeyr<x-src>chair#DEF</x-src></x-out></strong></li>
+<li><strong><x-out>bordh<x-src>table</x-src></x-out></strong> &quot;table&quot; | <strong><x-out>ym mordh<x-src>table#DEF</x-src></x-out></strong></li>
+<li><strong><x-out>fennas<x-src>door</x-src></x-out></strong> &quot;door&quot; | <strong><x-out>yn fennas<x-src>door#DEF</x-src></x-out></strong></li>
+<li><strong><x-out>pliven<x-src>pen</x-src></x-out></strong> &quot;pen&quot; | <strong><x-out>ym bliven<x-src>pen#DEF</x-src></x-out></strong></li>
+<li><strong><x-out>glowbliven<x-src>pencil</x-src></x-out></strong> &quot;pencil&quot; | <strong><x-out>yn &#39;lowbliven<x-src>pencil#DEF</x-src></x-out></strong></li>
+<li><strong><x-out>morthol<x-src>hammer</x-src></x-out></strong> &quot;hammer&quot; | <strong><x-out>ym morthol<x-src>hammer#DEF</x-src></x-out></strong></li>
+<li><strong><x-out>reknell<x-src>computer</x-src></x-out></strong> &quot;computer&quot; | <strong><x-out>yn reknell<x-src>computer#DEF</x-src></x-out></strong></li>
+</ul>
+</div>
           <hr/>
           <div class="prev-and-next-links">
             <div class="left"><a href="mutation.html" class="mdsite-prev-link">Prev</a></div><div class="right"><a href="number.html" class="mdsite-next-link">Next</a></div>
@@ -56,5 +89,6 @@
       </div>
     </div>
     <script type="text/javascript" src="assets/exercises.js"></script>
+    <script type="text/javascript" src="assets/run-tests.js"></script>
   </body>
 </html>

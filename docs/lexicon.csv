@@ -28,6 +28,7 @@ number_1,nivra
 compute_1,rekna
 compute_0,*compute_1#MID
 be_1,ty
+be_like_1,par
 evil_0,tavel,wicked; evil
 Q,cann,question-marking particle
 boat,skath
@@ -47,6 +48,7 @@ middle,*amid_1#RESULT
 school,agadh
 curse_1,moll
 curse,*curse_1#RESULT
+cursed_0,*curse_1#PASSMID
 head,pen
 pebble,theul
 beyond_1,drow
@@ -115,7 +117,8 @@ exist_0,*of_1#MID
 house,[*build_1+*home]
 home,trev
 build_1,car
-thing,*one
+thing,*item
+item,taclu
 here_0,ma
 for_1,dra
 new_0,nowydh
@@ -123,3 +126,19 @@ shire,sir
 be_named_1,henn,hight
 person,ten
 name,henu
+old_0,yor
+season,cynn
+fruit,yav
+autumn,[*season+*fruit]
+fork,gowl
+knife,kollell
+spoon,lauth
+chair,cadeyr
+table,bordh
+door,fennas
+pen,pliven,for writing
+coal,glow
+pencil,[*coal+*pen#COMPOUND_LEN]
+hammer,morthol
+welcome,[*good_0+*come_1#MID#COMPOUND_LEN]
+come_1,tol

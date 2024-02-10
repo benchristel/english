@@ -4,8 +4,12 @@
     <title>Lesson 1: Pleasantries - English Grammar</title>
     <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="assets/exercises.css">
+    <script type="text/javascript" src="assets/taste.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/preact@10.19.3/dist/preact.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/preact@10.19.3/hooks/dist/hooks.umd.js"></script>
   </head>
   <body>
+    <div id="test-results"></div>
     <div class="page">
       <header>
         <nav>
@@ -23,7 +27,7 @@
           <a class="home-link" href="index.html" title="home">
             <img alt="The coat of arms of Englalond" src="assets/arms.png">
           </a>
-          <ul><li class="mdsite-current-file"><a href="pleasantries.html">Lesson 1: Pleasantries</a></li><li><a href="phonology.html">Pronunciation</a></li><li><a href="pronouns.html">Pronouns</a></li><li><a href="introductions.html">Lesson X: Introductions</a></li><li><a href="possessives.html">Lesson 2: Possessives</a></li><li><a href="mutation.html">Mutation</a></li><li><a href="articles.html">Articles</a></li><li><a href="number.html">Number</a></li><li><a href="adjectives.html">Adjectives</a></li><li><a href="appositives.html">Appositives</a></li><li><a href="questions.html">Questions</a></li><li><a href="lexicon.html">Lexicon</a></li><li><a href="likes.html">Lesson 3: Likes and Dislikes</a></li><li><a href="verbs.html">Verb Forms</a></li></ul>
+          <ul><li class="mdsite-current-file"><a href="pleasantries.html">Lesson 1: Pleasantries</a></li><li><a href="phonology.html">Pronunciation</a></li><li><a href="pronouns.html">Pronouns</a></li><li><a href="introductions.html">Lesson X: Introductions</a></li><li><a href="possessives.html">Lesson 2: Possessives</a></li><li><a href="mutation.html">Mutation</a></li><li><a href="articles.html">Articles</a></li><li><a href="number.html">Number</a></li><li><a href="adjectives.html">Adjectives</a></li><li><a href="appositives.html">Appositives</a></li><li><a href="questions.html">Questions</a></li><li><a href="lexicon.html">Lexicon</a></li><li><a href="likes.html">Lesson 3: Likes and Dislikes</a></li><li><a href="descriptions.html">Lesson X: Descriptions</a></li><li><a href="verbs.html">Verb Forms</a></li></ul>
         </nav>
         <article>
           <div class="prev-and-next-links">
@@ -31,6 +35,12 @@
           </div>
           <hr/>
           <h1 id="lesson-1-pleasantries">Lesson 1: Pleasantries</h1>
+<p><strong><x-out>Suiloddow<x-src>greeting#PL#CAP</x-src></x-out> <x-out>ac<x-src>and</x-src></x-out> <x-out>maradolen<x-src>welcome</x-src></x-out>!</strong> Greetings and welcome to this <strong><x-out>English<x-src>LANGNAME</x-src></x-out></strong> course. In this first lesson, we&#39;ll learn various ways to say hello and goodbye, and you will get acquainted with the structure of the lessons and how this course will work.</p>
+<p>You can hover your mouse over any <strong><x-out>English<x-src>LANGNAME</x-src></x-out></strong> word to see a coded &quot;translation&quot; of it. Although these translations are often somewhat obscure, you can use them to get some idea
+of what an unfamiliar word means, or remind yourself of the meaning of a word you have learned previously.</p>
+<p>Once you have learned the words, try to translate as little as possible. You should learn to &quot;think in <strong><x-out>English<x-src>LANGNAME</x-src></x-out></strong>&quot;. To that end, the exercises provided with each lesson focus on
+using the language and recognizing patterns, rather than simply translating. You should practice the exercises in each lesson every few days until you can get the right answer effortlessly.</p>
+<h2 id="vocabulary">Vocabulary</h2>
 <ul>
 <li><strong><x-out>suiloddow<x-src>greeting#PL</x-src></x-out>!</strong> &quot;Greetings!&quot;</li>
 <li><strong><x-out>mynn<x-src>morning</x-src></x-out> <x-out>da<x-src>pleasant_0#LEN</x-src></x-out></strong> &quot;Good morning.&quot;</li>
@@ -54,9 +64,10 @@
 <li><strong><x-out>bidhava<x-src>dwell_0#INF</x-src></x-out> <x-out>vara<x-src>good_0#LEN</x-src></x-out></strong> &quot;Be well.&quot;</li>
 <li><strong><x-out>lostava<x-src>sleep_0#INF</x-src></x-out> <x-out>da<x-src>pleasant_0#LEN</x-src></x-out></strong> &quot;Good night.&quot;</li>
 </ul>
+<h2 id="exercises">Exercises</h2>
 <div class="exercise">
 
-<h2 id="exercise-1-suiloddowgreetingplcap-acand-maravaowgood_0infpl">Exercise 1: <strong><x-out>Suiloddow<x-src>greeting#PL#CAP</x-src></x-out> <x-out>ac<x-src>and</x-src></x-out> <x-out>maravaow<x-src>good_0#INF#PL</x-src></x-out></strong></h2>
+<h3 id="exercise-1-suiloddowgreetingplcap-acand-maravaowgood_0infpl">Exercise 1: <strong><x-out>Suiloddow<x-src>greeting#PL#CAP</x-src></x-out> <x-out>ac<x-src>and</x-src></x-out> <x-out>maravaow<x-src>good_0#INF#PL</x-src></x-out></strong></h3>
 <p>What would you say in each of these situations?</p>
 <hr>
 <ul>
@@ -79,7 +90,7 @@
 
 <div class="exercise">
 
-<h2 id="exercise-2-maragood_0cap-vaervery_0len-afin-hanthank_1-yth2sg">Exercise 2: <strong><x-out>Mara<x-src>good_0#CAP</x-src></x-out> <x-out>vaer<x-src>very_0#LEN</x-src></x-out>, <x-out>a<x-src>FIN</x-src></x-out> <x-out>han<x-src>thank_1</x-src></x-out> <x-out>yth<x-src>2SG</x-src></x-out>!</strong></h2>
+<h3 id="exercise-2-maragood_0cap-vaervery_0len-afin-hanthank_1-yth2sg">Exercise 2: <strong><x-out>Mara<x-src>good_0#CAP</x-src></x-out> <x-out>vaer<x-src>very_0#LEN</x-src></x-out>, <x-out>a<x-src>FIN</x-src></x-out> <x-out>han<x-src>thank_1</x-src></x-out> <x-out>yth<x-src>2SG</x-src></x-out>!</strong></h3>
 <p>Your friend asks you, <strong>&quot;<x-out>Pedel<x-src>how_condition#CAP</x-src></x-out> <x-out>a<x-src>FIN</x-src></x-out> <x-out>gan<x-src>exist_0</x-src></x-out>?&quot;</strong>
 Translate these possible responses to English:</p>
 <hr>
@@ -102,7 +113,7 @@ Translate these possible responses to English:</p>
 
 <div class="exercise">
 
-<h2 id="exercise-3">Exercise 3</h2>
+<h3 id="exercise-3">Exercise 3</h3>
 <p>Translate to English:</p>
 <hr>
 <ul>
@@ -113,7 +124,7 @@ Translate these possible responses to English:</p>
 <li>Farewell! | <strong><x-out>marava<x-src>good_0#INF</x-src></x-out></strong></li>
 <li>Bye! | <strong><x-out>ta<x-src>pleasant_0</x-src></x-out></strong></li>
 <li>Hi! | <strong><x-out>ta<x-src>pleasant_0</x-src></x-out></strong></li>
-<li>Fair travels. | <strong><x-out>reyava<x-src>travel_0#INF</x-src></x-out> <x-out>&#39;an<x-src>exist_0#LEN</x-src></x-out></strong></li>
+<li>Fair travels. | <strong><x-out>reyava<x-src>travel_0#INF</x-src></x-out> <x-out>deg<x-src>exact_0#LEN</x-src></x-out></strong></li>
 </ul>
 </div>
           <hr/>
@@ -124,5 +135,6 @@ Translate these possible responses to English:</p>
       </div>
     </div>
     <script type="text/javascript" src="assets/exercises.js"></script>
+    <script type="text/javascript" src="assets/run-tests.js"></script>
   </body>
 </html>

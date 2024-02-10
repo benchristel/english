@@ -1,11 +1,76 @@
 ;(() => {
 
+const {test, expect, is} = window.Taste;
+const {render} = window.preact; 
+test("taste", {
+  works() {
+    expect(false, is, false)
+  }
+})
+
 function main() {
   $(".exercise").forEach(exerciseSpec => {
-    const exerciseComponentRoot = h("div")
+    const exerciseComponentRoot = document.createElement("div")
     swap(exerciseSpec, exerciseComponentRoot)
-    initExerciseComponent(parseExercise(exerciseSpec), exerciseComponentRoot)
+    render(window.preact.h(Exercise, {spec: parseExercise(exerciseSpec)}, "hello from preact"), exerciseComponentRoot)
   })
+}
+
+function Exercise({spec}) {
+  const {h} = window.preact;
+  const {useState} = window.preactHooks;
+
+  const [questions, setQuestions] = useState(pickRandomly(4, spec.questions))
+  const [marks, setMarks] = useState(questions.map(() => "unmarked"))
+  const [guesses, setGuesses] = useState(questions.map(() => ""))
+  
+  function setGuess(i) {
+    return (evt) => setGuesses(guesses =>
+      guesses.map((g, k) => k === i ? evt.target.value : g))
+  }
+  
+  function checkAnswers() {
+    const newMarks = questions.map((question, i) => {
+      const guess = guesses[i];
+      if (isCloseEnough(guess, question.correctAnswer)) {
+        return "correct"
+      } else {
+        return "incorrect"
+      }
+    })
+    setMarks(newMarks)
+  }
+  
+  function refreshQuestions() {
+    const questions = pickRandomly(4, spec.questions)
+    setQuestions(questions)
+    setMarks(questions.map(() => "unmarked"))
+    setGuesses(questions.map(() => ""))
+  }
+
+  const prompt = spec.promptElements
+    .map(toPreactElement)
+  
+  return h("div", {class: "exercise"}, 
+      ...prompt,
+      h("ul", {},
+        ...questions.map((question, questionIndex) =>
+          h("li", {},
+            h("div", {dangerouslySetInnerHTML: {__html: question.stimulusHtml}}),
+            h("div", {class: "answer"},
+              h("input", {class: marks[questionIndex], value: guesses[questionIndex], oninput: setGuess(questionIndex)}),
+              h("span", {class: marks[questionIndex]}, marks[questionIndex]),
+            ),
+            h("details", {style: "font-size: 12px; min-height: 3.5em"},
+              h("summary", {}, "Show answer"),
+              h("span", {}, question.correctAnswer),
+            )
+          )
+        ),
+      ),
+      h("button", {onclick: checkAnswers}, "Check answers"),
+      h("button", {onclick: refreshQuestions}, "More questions like this")
+    )
 }
 
 function parseExercise(exerciseSpec) {
@@ -155,6 +220,16 @@ function parseHtml(html) {
   const node = h("div", {})
   node.innerHTML = html
   return node
+}
+
+function toPreactElement(el) {
+  const {h} = window.preact;
+  if (el.tagName == null) {
+    // assume el is a text node
+    return el.textContent
+  }
+  const tag = el.tagName.toLowerCase();
+  return h(tag, {}, [...el.childNodes].map(toPreactElement));
 }
 
 main()
