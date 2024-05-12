@@ -9,7 +9,7 @@ FIN,a
 FUT,vrow
 1SG,mi
 1PL,ni
-2SG,yth
+2SG,thu
 2PL,le
 3SG,ev
 3PL,dho
@@ -30,7 +30,7 @@ compute_0,*compute_1#MID
 be_1,ty
 be_like_1,par
 evil_0,tavel,wicked; evil
-Q,cann,question-marking particle
+Q,ce,question-marking particle
 boat,skath
 tree,gwydh
 monster,oethvil

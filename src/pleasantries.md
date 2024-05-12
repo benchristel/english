@@ -15,13 +15,13 @@ using the language and recognizing patterns, rather than simply translating. You
 - __<x-out>dydh<x-src>day</x-src></x-out> <x-out>da<x-src>pleasant_0#LEN</x-src></x-out>__ "Good day."
 - __<x-out>adwiall<x-src>evening</x-src></x-out> <x-out>da<x-src>pleasant_0#LEN</x-src></x-out>__ "Good evening."
 - __<x-out>ta<x-src>pleasant_0</x-src></x-out>__ "Hi/bye" (informal)
-- __<x-out>Cann<x-src>Q#CAP</x-src></x-out> <x-out>a<x-src>FIN</x-src></x-out> <x-out>mara<x-src>good_0</x-src></x-out>?__ "Are you well?"
+- __<x-out>Ce<x-src>Q#CAP</x-src></x-out> <x-out>a<x-src>FIN</x-src></x-out> <x-out>mara<x-src>good_0</x-src></x-out>?__ "Are you well?"
 - __<x-out>Pedel<x-src>how_condition#CAP</x-src></x-out> <x-out>a<x-src>FIN</x-src></x-out> <x-out>gan<x-src>exist_0</x-src></x-out>?__ "How are you?"
 - __<x-out>mara<x-src>good_0</x-src></x-out>__ "Well."
 - __<x-out>mara<x-src>good_0</x-src></x-out> <x-out>lenys<x-src>suffice_0#LEN</x-src></x-out>__ "Well enough."
 - __<x-out>mara<x-src>good_0</x-src></x-out> <x-out>vaer<x-src>very_0#LEN</x-src></x-out>__ "Very well."
-- __<x-out>mara<x-src>good_0</x-src></x-out> <x-out>vaer<x-src>very_0#LEN</x-src></x-out>, <x-out>ac<x-src>and</x-src></x-out> <x-out>yth<x-src>2SG</x-src></x-out>?__ "Very well, and you?"
-- __<x-out>mara<x-src>good_0</x-src></x-out> <x-out>vaer<x-src>very_0#LEN</x-src></x-out>, <x-out>a<x-src>FIN</x-src></x-out> <x-out>han<x-src>thank_1</x-src></x-out> <x-out>yth<x-src>2SG</x-src></x-out>.__ "Very well, thank you."
+- __<x-out>mara<x-src>good_0</x-src></x-out> <x-out>vaer<x-src>very_0#LEN</x-src></x-out>, <x-out>ac<x-src>and</x-src></x-out> <x-out>thu<x-src>2SG</x-src></x-out>?__ "Very well, and you?"
+- __<x-out>mara<x-src>good_0</x-src></x-out> <x-out>vaer<x-src>very_0#LEN</x-src></x-out>, <x-out>a<x-src>FIN</x-src></x-out> <x-out>han<x-src>thank_1</x-src></x-out> <x-out>thu<x-src>2SG</x-src></x-out>.__ "Very well, thank you."
 - __<x-out>flan<x-src>excellent_0</x-src></x-out>__ "Excellent."
 - __<x-out>teg<x-src>exact_0</x-src></x-out>__ "Perfect."
 - __<x-out>nâ mara<x-src>good_0#NEG</x-src></x-out>__ "Not well."
@@ -61,7 +61,7 @@ What would you say in each of these situations?
 
 <div class="exercise">
 
-### Exercise 2: __<x-out>Mara<x-src>good_0#CAP</x-src></x-out> <x-out>vaer<x-src>very_0#LEN</x-src></x-out>, <x-out>a<x-src>FIN</x-src></x-out> <x-out>han<x-src>thank_1</x-src></x-out> <x-out>yth<x-src>2SG</x-src></x-out>!__
+### Exercise 2: __<x-out>Mara<x-src>good_0#CAP</x-src></x-out> <x-out>vaer<x-src>very_0#LEN</x-src></x-out>, <x-out>a<x-src>FIN</x-src></x-out> <x-out>han<x-src>thank_1</x-src></x-out> <x-out>thu<x-src>2SG</x-src></x-out>!__
 
 Your friend asks you, __"<x-out>Pedel<x-src>how_condition#CAP</x-src></x-out> <x-out>a<x-src>FIN</x-src></x-out> <x-out>gan<x-src>exist_0</x-src></x-out>?"__
 Translate these possible responses to English:
@@ -76,11 +76,11 @@ Translate these possible responses to English:
 - very bad | __<x-out>drog<x-src>bad_0</x-src></x-out> <x-out>vaer<x-src>very_0#LEN</x-src></x-out>__
 - perfect | __<x-out>teg<x-src>exact_0</x-src></x-out>__
 - excellent | __<x-out>flan<x-src>excellent_0</x-src></x-out>__
-- well, thank you | __<x-out>mara<x-src>good_0</x-src></x-out>, <x-out>a<x-src>FIN</x-src></x-out> <x-out>han<x-src>thank_1</x-src></x-out> <x-out>yth<x-src>2SG</x-src></x-out>__
-- very well, thank you | __<x-out>mara<x-src>good_0</x-src></x-out> <x-out>vaer<x-src>very_0#LEN</x-src></x-out>, <x-out>a<x-src>FIN</x-src></x-out> <x-out>han<x-src>thank_1</x-src></x-out> <x-out>yth<x-src>2SG</x-src></x-out>__
-- well enough, thank you | __<x-out>mara<x-src>good_0</x-src></x-out> <x-out>lenys<x-src>suffice_0#LEN</x-src></x-out>, <x-out>a<x-src>FIN</x-src></x-out> <x-out>han<x-src>thank_1</x-src></x-out> <x-out>yth<x-src>2SG</x-src></x-out>__
-- perfect, and you? | __<x-out>teg<x-src>exact_0</x-src></x-out>, <x-out>ac<x-src>and</x-src></x-out> <x-out>yth<x-src>2SG</x-src></x-out>__
-- excellent, and you? | __<x-out>flan<x-src>excellent_0</x-src></x-out>, <x-out>ac<x-src>and</x-src></x-out> <x-out>yth<x-src>2SG</x-src></x-out>__
+- well, thank you | __<x-out>mara<x-src>good_0</x-src></x-out>, <x-out>a<x-src>FIN</x-src></x-out> <x-out>han<x-src>thank_1</x-src></x-out> <x-out>thu<x-src>2SG</x-src></x-out>__
+- very well, thank you | __<x-out>mara<x-src>good_0</x-src></x-out> <x-out>vaer<x-src>very_0#LEN</x-src></x-out>, <x-out>a<x-src>FIN</x-src></x-out> <x-out>han<x-src>thank_1</x-src></x-out> <x-out>thu<x-src>2SG</x-src></x-out>__
+- well enough, thank you | __<x-out>mara<x-src>good_0</x-src></x-out> <x-out>lenys<x-src>suffice_0#LEN</x-src></x-out>, <x-out>a<x-src>FIN</x-src></x-out> <x-out>han<x-src>thank_1</x-src></x-out> <x-out>thu<x-src>2SG</x-src></x-out>__
+- perfect, and you? | __<x-out>teg<x-src>exact_0</x-src></x-out>, <x-out>ac<x-src>and</x-src></x-out> <x-out>thu<x-src>2SG</x-src></x-out>__
+- excellent, and you? | __<x-out>flan<x-src>excellent_0</x-src></x-out>, <x-out>ac<x-src>and</x-src></x-out> <x-out>thu<x-src>2SG</x-src></x-out>__
 
 </div>
 
@@ -93,7 +93,7 @@ Translate to English:
 ---
 
 - Greetings! | __<x-out>suiloddow<x-src>greeting#PL</x-src></x-out>__
-- Are you well? | __<x-out>cann<x-src>Q</x-src></x-out> <x-out>a<x-src>FIN</x-src></x-out> <x-out>mara<x-src>good_0</x-src></x-out>?__
+- Are you well? | __<x-out>ce<x-src>Q</x-src></x-out> <x-out>a<x-src>FIN</x-src></x-out> <x-out>mara<x-src>good_0</x-src></x-out>?__
 - How are you? | __<x-out>pedel<x-src>how_condition</x-src></x-out> <x-out>a<x-src>FIN</x-src></x-out> <x-out>gan<x-src>exist_0</x-src></x-out>__
 - Be well. | __<x-out>bidhava<x-src>dwell_0#INF</x-src></x-out> <x-out>vara<x-src>good_0#LEN</x-src></x-out>__
 - Farewell! | __<x-out>marava<x-src>good_0#INF</x-src></x-out>__
